@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<layout>
+    <catalog_category_layered>
+        <reference name="head">
+            <action method="addJs" ifconfig="arwfilter/general/bar">
+                <script>arw/filter/nprogress/nprogress.js</script>
+            </action>
+            <action method="addItem" ifconfig="arwfilter/general/bar">
+                <type>skin_css</type>
+                <css>arw/filter/nprogress/nprogress.css</css>
+            </action>
+            <action method="addJs">
+                <script>arw/filter/URI.min.js</script>
+            </action>
+            <action method="addJs">
+                <script>arw/filter/filter.js</script>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>arw/filter/nouislider.min.js</name>
+            </action>
+        </reference>
+        <reference name="after_body_start">
+            <block type="core/template" name="arw_filter_js" as="arw_filter_js">
+                <action method="setTemplate" ifconfig="arwfilter/catalog/price">
+                    <file>arw/filter/js.phtml</file>
+                </action>
+            </block>
+        </reference>
+    </catalog_category_layered>
+    <catalogsearch_result_index>
+        <reference name="head">
+            <action method="addJs" ifconfig="arwfilter/general/bar">
+                <script>arw/filter/nprogress/nprogress.js</script>
+            </action>
+            <action method="addItem" ifconfig="arwfilter/general/bar">
+                <type>skin_css</type>
+                <css>arw/filter/nprogress/nprogress.css</css>
+            </action>
+            <action method="addJs">
+                <script>arw/filter/URI.min.js</script>
+            </action>
+            <action method="addJs">
+                <script>arw/filter/filter.js</script>
+            </action>
+        </reference>
+        <reference name="after_body_start">
+            <block type="core/template" name="arw_filter_js" as="arw_filter_js">
+                <action method="setTemplate" ifconfig="arwfilter/catalogsearch/price">
+                    <file>arw/filter/js.phtml</file>
+                </action>
+            </block>
+        </reference>
+    </catalogsearch_result_index>
+</layout>

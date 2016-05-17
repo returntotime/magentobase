@@ -1,0 +1,251 @@
+<root><pages><cms_block><title><![CDATA[404 Not Found]]></title><identifier>no-route</identifier><content><![CDATA[<div class="content-page-404 text-center margin-bottom-100">
+  <h1 class="font-size-5x"><strong>404</strong></h1>
+<div class="font-size-2x color-heading padding-bottom-10">OOPS! PAGE NOT FOUND</div>
+<p class="padding-bottom-20">Sorry, but the page you are looking for is not found. Please, make sure you have typed the current URL.</p>
+<a href="{{store url="/"}}" class="btn">go to homepage</a>
+</div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[ARW Sebian Fashion Home 2]]></title><identifier>fashion-home-2</identifier><content><![CDATA[{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_2_block_banner_1"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_2_block_product_tab_1"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_2_block_product_tab_2"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_2_block_lookbook"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_2_block_latest_news"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_2_block_parallax_background"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_2_block_our_services"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_2_block_testimonial"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_2_block_maps_contact"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_2_block_newsletter"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_2_block_brand"}}]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[About Us]]></title><identifier>about-us</identifier><content><![CDATA[<div class="fluid-width margin-top--60 margin-bottom-30">
+	<div class="wrapper">
+		<img class="size-full" src="{{media url="wysiwyg/arw/_background/about-us.jpg"}}" alt="" />
+	</div>
+</div>
+<div class="text-center">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="arw-title">
+				<h2><span><span>OUR STORY</span></span></h2>
+			</div>
+			<div class="arw-sub-title">
+				<span class="display-block">We are one</span>
+			</div>
+		</div>
+	</div>
+	<div class="row">	
+		<div class="col-xs-12 margin-top-30 margin-bottom-30">
+			<h3>THE MOST INFLUENTIAL PERSONAL STYLE BLOGGERS RIGHT NOW</h3>
+			<div class="arw-sub-title">
+				<span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal as opposed to using 'Content here'</span>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 margin-bottom-30">
+			<img src="{{media url="wysiwyg/arw/_background/about-symbol-icon.jpg"}}" alt="" />
+		</div>
+		<div class="col-xs-12 margin-bottom-30">
+		<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+		<p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.</p>
+		</div>
+	</div>
+	<div class="border-top-1"></div>
+</div>
+<div class="clearfix">
+	<div class="row">
+		<div class="col-xs-12 margin-top-30 margin-bottom-30">
+			<div class="arw-title">
+				<h2><span><span>OUR TEAM</span></span></h2>
+			</div>
+			<div class="arw-sub-title">
+				<span class="display-block">Crazy team</span>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<div class="our-team-item">
+				<div class="avatar">
+					<img src="{{media url="wysiwyg/arw/_our_team/avatar-1.jpg"}}" alt="JOHN DOE" />
+				</div>
+				<h3>JOHN DOE</h3>
+				<h5>CEO/Cofounder</h5>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati</p>
+				<ul class="social-networks">
+					<li><a href="#" title="Facebook" data-toogle="tooltip"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
+					<li><a href="#" title="Twitter" data-toogle="tooltip"><i class="fa fa-twitter"></i><span>Twitter</span></a></li>
+					<li><a href="#" title="Dribbble" data-toogle="tooltip"><i class="fa fa-dribbble"></i><span>Dribbble</span></a></li>
+					<li><a href="#" title="Behance" data-toogle="tooltip"><i class="fa fa-behance"></i><span>Behance</span></a></li>
+					<li><a href="#" title="Email" data-toogle="tooltip"><i class="fa fa-envelope"></i><span>Email</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<div class="our-team-item">
+				<div class="avatar">
+					<img src="{{media url="wysiwyg/arw/_our_team/avatar-2.jpg"}}" alt="MARRY DOE" />
+				</div>
+				<h3>MARRY DOE</h3>
+				<h5>CEO/Cofounder</h5>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati</p>
+				<ul class="social-networks">
+					<li><a href="#" title="Facebook" data-toogle="tooltip"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
+					<li><a href="#" title="Twitter" data-toogle="tooltip"><i class="fa fa-twitter"></i><span>Twitter</span></a></li>
+					<li><a href="#" title="Dribbble" data-toogle="tooltip"><i class="fa fa-dribbble"></i><span>Dribbble</span></a></li>
+					<li><a href="#" title="Behance" data-toogle="tooltip"><i class="fa fa-behance"></i><span>Behance</span></a></li>
+					<li><a href="#" title="Email" data-toogle="tooltip"><i class="fa fa-envelope"></i><span>Email</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<div class="our-team-item">
+				<div class="avatar">
+					<img src="{{media url="wysiwyg/arw/_our_team/avatar-3.jpg"}}" alt="LADY TECH" />
+				</div>
+				<h3>LADY TECH</h3>
+				<h5>CEO/Cofounder</h5>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati</p>
+				<ul class="social-networks">
+					<li><a href="#" title="Facebook" data-toogle="tooltip"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
+					<li><a href="#" title="Twitter" data-toogle="tooltip"><i class="fa fa-twitter"></i><span>Twitter</span></a></li>
+					<li><a href="#" title="Dribbble" data-toogle="tooltip"><i class="fa fa-dribbble"></i><span>Dribbble</span></a></li>
+					<li><a href="#" title="Behance" data-toogle="tooltip"><i class="fa fa-behance"></i><span>Behance</span></a></li>
+					<li><a href="#" title="Email" data-toogle="tooltip"><i class="fa fa-envelope"></i><span>Email</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<div class="our-team-item">
+				<div class="avatar">
+					<img src="{{media url="wysiwyg/arw/_our_team/avatar-4.jpg"}}" alt="JAMMIE LANDING" />
+				</div>
+				<h3>JAMMIE LANDING</h3>
+				<h5>CEO/Cofounder</h5>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati</p>
+				<ul class="social-networks">
+					<li><a href="#" title="Facebook" data-toogle="tooltip"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
+					<li><a href="#" title="Twitter" data-toogle="tooltip"><i class="fa fa-twitter"></i><span>Twitter</span></a></li>
+					<li><a href="#" title="Dribbble" data-toogle="tooltip"><i class="fa fa-dribbble"></i><span>Dribbble</span></a></li>
+					<li><a href="#" title="Behance" data-toogle="tooltip"><i class="fa fa-behance"></i><span>Behance</span></a></li>
+					<li><a href="#" title="Email" data-toogle="tooltip"><i class="fa fa-envelope"></i><span>Email</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<div class="our-team-item">
+				<div class="avatar">
+					<img src="{{media url="wysiwyg/arw/_our_team/avatar-5.jpg"}}" alt="ROSSY DAVID" />
+				</div>
+				<h3>ROSSY DAVID</h3>
+				<h5>CEO/Cofounder</h5>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati</p>
+				<ul class="social-networks">
+					<li><a href="#" title="Facebook" data-toogle="tooltip"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
+					<li><a href="#" title="Twitter" data-toogle="tooltip"><i class="fa fa-twitter"></i><span>Twitter</span></a></li>
+					<li><a href="#" title="Dribbble" data-toogle="tooltip"><i class="fa fa-dribbble"></i><span>Dribbble</span></a></li>
+					<li><a href="#" title="Behance" data-toogle="tooltip"><i class="fa fa-behance"></i><span>Behance</span></a></li>
+					<li><a href="#" title="Email" data-toogle="tooltip"><i class="fa fa-envelope"></i><span>Email</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<div class="our-team-item">
+				<div class="avatar">
+					<img src="{{media url="wysiwyg/arw/_our_team/avatar-6.jpg"}}" alt="MAN TECH" />
+				</div>
+				<h3>MAN TECH</h3>
+				<h5>CEO/Cofounder</h5>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati</p>
+				<ul class="social-networks">
+					<li><a href="#" title="Facebook" data-toogle="tooltip"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
+					<li><a href="#" title="Twitter" data-toogle="tooltip"><i class="fa fa-twitter"></i><span>Twitter</span></a></li>
+					<li><a href="#" title="Dribbble" data-toogle="tooltip"><i class="fa fa-dribbble"></i><span>Dribbble</span></a></li>
+					<li><a href="#" title="Behance" data-toogle="tooltip"><i class="fa fa-behance"></i><span>Behance</span></a></li>
+					<li><a href="#" title="Email" data-toogle="tooltip"><i class="fa fa-envelope"></i><span>Email</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_about_us_block_our_services"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_about_us_block_brand"}}]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Brand]]></title><identifier>brand</identifier><content><![CDATA[<div></div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Blog]]></title><identifier>blog</identifier><content><![CDATA[<div></div>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[ARW Sebian Fashion Demo]]></title><identifier>home</identifier><content><![CDATA[{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_1_block_banner_1"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_1_block_product_1"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_1_block_banner_2"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_1_block_product_2"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_1_block_services_1"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_1_block_happyclient"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_1_block_latest_news"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_1_block_video_background"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_1_block_services_2"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_1_block_brand"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_1_block_newsletter"}}
+
+<script type="text/javascript">
+jQuery(document).ready(function(){ arexworks.Frontend.fixSlider(true);})
+</script>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[ARW Sebian Fashion Home 3]]></title><identifier>fashion-home-3</identifier><content><![CDATA[{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_3_block_banner_1"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_3_block_product_1"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_3_block_banner_2"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_3_block_product_2"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_3_block_banner_3"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_3_block_testimonial"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_3_block_latest_news"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_3_block_brand"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_3_block_newsletter"}}]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[ARW Sebian Watch Demo]]></title><identifier>watch-home</identifier><content><![CDATA[{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_watch_block_banner_1"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_watch_block_product_1"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_watch_block_product_2"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_watch_block_banner_2"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_watch_block_product_3"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_watch_block_latest_news"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_watch_block_banner_3"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_watch_block_brand"}}]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[ARW Sebian Sport Demo]]></title><identifier>sport-home</identifier><content><![CDATA[{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_sport_block_banner_1"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_sport_block_welcome"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_sport_block_product_1"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_sport_block_banner_2"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_sport_block_latest_news"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_sport_block_banner_3"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_sport_block_brand"}}]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[ARW Sebian Fashion Home 6]]></title><identifier>fashion-home-6</identifier><content><![CDATA[<script type="text/javascript">jQuery(document).ready(function(){ arexworks.Frontend.fixSlider(true); })</script>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[ARW Sebian Furniture Demo]]></title><identifier>furniture-home</identifier><content><![CDATA[{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_furniture_block_banner_1"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_furniture_block_new_arrival"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_furniture_block_parallax_background"}}
+<script type="text/javascript">jQuery(document).ready(function(){ arexworks.Frontend.fixSlider();})</script>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[ARW Sebian Cosmetic Demo]]></title><identifier>cosmetic-home</identifier><content><![CDATA[{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_cosmetic_block_banner_1"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_cosmetic_block_product_1"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_cosmetic_block_banner_2"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_cosmetic_block_product_2"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_cosmetic_block_services_1"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_cosmetic_block_happyclient}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_cosmetic_block_latest_news"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_cosmetic_block_video_background"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_cosmetic_block_services_2"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_2_block_brand"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_home_cosmetic_block_newsletter"}}
+
+<script type="text/javascript">
+jQuery(document).ready(function(){ arexworks.Frontend.fixSlider(true);})
+</script>]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[ARW Sebian Fashion Home 4]]></title><identifier>fashion-home-4</identifier><content><![CDATA[{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_4_block_banner_1"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_4_block_product_1"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_4_block_product_2"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_4_block_banner_2"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_4_block_product_3"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_2_block_latest_news"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_4_block_banner_3"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_3_block_brand"}}]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[ARW Sebian Fashion Home 5]]></title><identifier>fashion-home-5</identifier><content><![CDATA[{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_5_block_banner_1"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_5_block_welcome"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_5_block_product"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_5_block_banner_2"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_5_block_latest_news"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_5_block_banner_3"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_fashion_5_block_brand"}}]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[Contact Us CMS Page]]></title><identifier>contact-us</identifier><content><![CDATA[{{block type="core/template" name="contactForm" form_action="contacts/index/post" template="contacts/form.phtml" cms_page="1"}}]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[ARW Sebian Construction Demo]]></title><identifier>construction-home</identifier><content><![CDATA[{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_construction_block_service_top"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_construction_block_our_services"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_construction_block_our_portfolio"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_construction_block_our_store"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_construction_block_construction_equipment"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_construction_block_who_we_are"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_construction_block_latest_news"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_construction_block_what_client_say"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_construction_block_our_clients"}}]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block><cms_block><title><![CDATA[ARW Sebian Construction Demo 2]]></title><identifier>construction-home-2</identifier><content><![CDATA[{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_construction_2_block_intro"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_construction_2_block_what_we_do"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_construction_2_block_best_house_renovation"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_construction_2_block_our_portfolio"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_construction_2_block_get_a_quote"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_construction_2_block_our_team"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_construction_2_block_why_choose_us"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_construction_2_block_recent_news}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_construction_2_block_what_client_say"}}
+{{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="arw_sebian_construction_2_block_our_clients"}}]]></content><is_active>1</is_active><stores><item>0</item></stores></cms_block></pages></root>

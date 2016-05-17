@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<widgets>
+    <blog_list type="blog/last" translate="name description" module="blog">
+        <name>Blog: Latest Posts</name>
+        <description>Adds a list of latest post from Blog</description>
+        <parameters>
+            <blocks_count>
+                <label>How many blocks to show</label>
+                <type>text</type>
+                <visible>1</visible>
+                <required>1</required>
+            </blocks_count>
+            <categories>
+                <label>Categories to show</label>
+                <type>multiselect</type>
+                <source_model>blog/system_config_source_categories</source_model>
+                <visible>1</visible>
+                <required>1</required>
+            </categories>
+            <template>
+                <label>Choose Template</label>
+                <type>select</type>
+                <values>
+                    <template_1 translate="label">
+                        <value>template_1</value>
+                        <label>Template 1</label>
+                    </template_1>
+                    <template_2 translate="label">
+                        <value>template_2</value>
+                        <label>Template 2</label>
+                    </template_2>
+                    <template_3 translate="label">
+                        <value>template_3</value>
+                        <label>Template 3</label>
+                    </template_3>
+                </values>
+                <visible>1</visible>
+                <required>1</required>
+            </template>
+            <column>
+                <label>Post per row</label>
+                <type>select</type>
+                <visible>1</visible>
+                <values>
+                    <one translate="label">
+                        <value>1</value>
+                        <label>One Column</label>
+                    </one>
+                    <two translate="label">
+                        <value>2</value>
+                        <label>Two Columns</label>
+                    </two>
+                    <three translate="label">
+                        <value>3</value>
+                        <label>Three Columns</label>
+                    </three>
+                    <four translate="label">
+                        <value>4</value>
+                        <label>Four Columns</label>
+                    </four>
+                </values>
+            </column>
+        </parameters>
+    </blog_list>
+</widgets>

@@ -1,0 +1,52 @@
+.header-container {
+	.header-quick-access {
+		.header-mini-cart + .header-mini-cart {
+			clear: none;
+		}
+		.block.block-compare {
+			.actions {
+				padding: 15px;
+				a {
+					color: $level2_color;
+					&:hover {
+						color: $level2_hover_color;
+					}
+				}
+				.button {
+					float: right;
+				}
+			}
+		}
+		#compare-items {
+			padding-top: 5px;
+			li.item {
+				padding: 10px 20px;
+				margin-bottom: 0;
+				border-bottom: 1px solid $level2_color;
+				position: relative;
+				.product-name {
+					font-size: 0.917em;
+					letter-spacing: 2px;
+					margin: 0;
+					text-transform: uppercase;
+					line-height: inherit;
+					a {
+						color: #fff;
+					}
+				}
+				.btn-remove {
+					color: $level2_color;
+					position: absolute;
+					right: 5px;
+					&:before {
+						content: "\f00d";
+					}
+				}
+				.btn-remove:hover,
+				.product-name a:hover {
+					color: $level2_hover_color;
+				}
+			}
+		}
+	}
+}
