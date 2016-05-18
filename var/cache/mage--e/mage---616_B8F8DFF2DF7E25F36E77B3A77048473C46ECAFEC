@@ -1,0 +1,32 @@
+<div class="widget widget-static-block"><div class="arw_sebian_block_testimonial home-block-border element_equal_height">
+	<div class="arw-title">
+		<h2><span><span>NEWSLETTER</span></span></h2>
+	</div>
+	<div class="title-divider-style-3"></div>
+	<div class="arw-carousel" data-dot="true">
+		<div class="arw-testimonial-box style-4">
+			<div class="testimonial-avatar">
+		    	<img src="http://localhost.com/magentobase/media/wysiwyg/arw/_testimonial/testimonial_2_2.jpg" alt="" />
+		    </div>
+		    <div class="testimonial-content">
+		    	<div class="testimonial-text">
+		    	“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.”
+		    	</div>
+		    	<div class="testimonial-author">SANSA STARK</div>
+		    	<div class="testimonial-author-position">Founder-Ceo. Dell Corp</div>
+		    </div>
+		</div>
+		<div class="arw-testimonial-box style-4">
+			<div class="testimonial-avatar">
+		    	<img src="http://localhost.com/magentobase/media/wysiwyg/arw/_testimonial/testimonial_2_3.jpg" alt="" />
+		    </div>
+		    <div class="testimonial-content">
+		    	<div class="testimonial-text">
+		    	“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.”
+		    	</div>
+		    	<div class="testimonial-author">TYRION LANNISTER</div>
+		    	<div class="testimonial-author-position">Founder-Ceo. Dell Corp</div>
+		    </div>
+		</div>
+	</div>
+</div></div>

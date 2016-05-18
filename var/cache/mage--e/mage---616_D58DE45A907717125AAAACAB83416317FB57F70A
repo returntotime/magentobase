@@ -1,0 +1,44 @@
+<div class="arw_sebian_block_newsletter_popup background-popup" style="background:url(http://localhost.com/magentobase/media/wysiwyg/arw/background_popup_newsletter.png) no-repeat top right #e9e9eb">
+	<div class="newsletter-inline hidden-block-title">
+		<div class="padding-30">
+			<div class="row">
+				<div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2 text-center">
+					<h3 class="font-size-30 text-uppercase"><strong>Newsletter Popup</strong></h3>		
+					<div class="font-size-14 padding-bottom-20">Sign up to our email newsletter to be the first to hear about great offers & more</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					<div class="block block-subscribe">
+    <div class="block-title">
+        <strong><span>Newsletter</span></strong>
+    </div>
+    <form class="newsletter-validate-detail" action="http://localhost.com/magentobase/watch/newsletter/subscriber/new/?___SID=U" method="post" id="newsletter-validate-detail-5475">
+        <div class="block-content">
+            <div class="input-box">
+               <input placeholder="YOUR EMAIL ADDRESS.." type="text" name="email" id="newsletter" title="YOUR EMAIL ADDRESS.." class="input-text required-entry validate-email" />
+            </div>
+            <div class="actions">
+                <button id="button-newsletter-validate-detail-5475" type="submit" title="Subscribe" class="button"><span><span>Subscribe</span></span></button>
+            </div>
+        </div>
+    </form>
+    <script type="text/javascript">
+    //<![CDATA[
+        var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail-5475',false);
+        $('newsletter-validate-detail-5475').observe('submit', function(){
+            setTimeout(function(){
+                newsletterSubscriberFormDetail.validator.reset();
+            },5000);
+        }.bind(newsletterSubscriberFormDetail));
+    //]]>
+    </script>
+</div>
+
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 padding-top-20">
+					<input type="checkbox" id="arw_dont_show_popup"/>
+					<label for="arw_dont_show_popup" class="text-color-primary margin-left-10">Don’t show this popup again</label>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

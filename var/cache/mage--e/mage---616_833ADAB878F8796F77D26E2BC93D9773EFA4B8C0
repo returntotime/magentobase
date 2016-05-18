@@ -1,0 +1,126 @@
+<div class="widget widget-static-block"><div class="arw_sebian_home_watch_block_brand margin-top-60 margin-bottom-20">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-bottom-40">
+			<div class="arw-title style-2">
+				<h2><span><span>BRANDS</span></span></h2>
+			</div>
+			<div class="arw-sub-title">
+				<span>View all famous brands</span>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		                <div id="brands-list-slider-26346" class="brands-widget normal-slider">
+            <div class="brands-list-slider">
+                                    <div class="brand-item">
+                        <div class="brand-item-inner">
+                            <div class="brand-image">
+                                <a class="brand-img" title="American"
+                                   href="http://localhost.com/magentobase/watch/?___SID=Ubrands/american">
+                                                                            <img alt="American"
+                                             src="http://localhost.com/magentobase/media/arw/brand/american.jpg">
+                                                                    </a>
+                            </div>
+                                                    </div>
+                    </div>
+                                    <div class="brand-item">
+                        <div class="brand-item-inner">
+                            <div class="brand-image">
+                                <a class="brand-img" title="Retro Brand"
+                                   href="http://localhost.com/magentobase/watch/?___SID=Ubrands/retro-brand">
+                                                                            <img alt="Retro Brand"
+                                             src="http://localhost.com/magentobase/media/arw/brand/retro-brand.jpg">
+                                                                    </a>
+                            </div>
+                                                    </div>
+                    </div>
+                                    <div class="brand-item">
+                        <div class="brand-item-inner">
+                            <div class="brand-image">
+                                <a class="brand-img" title="Mountain"
+                                   href="http://localhost.com/magentobase/watch/?___SID=Ubrands/mountain">
+                                                                            <img alt="Mountain"
+                                             src="http://localhost.com/magentobase/media/arw/brand/mountain.jpg">
+                                                                    </a>
+                            </div>
+                                                    </div>
+                    </div>
+                                    <div class="brand-item">
+                        <div class="brand-item-inner">
+                            <div class="brand-image">
+                                <a class="brand-img" title="Restaurant"
+                                   href="http://localhost.com/magentobase/watch/?___SID=Ubrands/restaurant">
+                                                                            <img alt="Restaurant"
+                                             src="http://localhost.com/magentobase/media/arw/brand/restaurant.jpg">
+                                                                    </a>
+                            </div>
+                                                    </div>
+                    </div>
+                                    <div class="brand-item">
+                        <div class="brand-item-inner">
+                            <div class="brand-image">
+                                <a class="brand-img" title="Deerbend"
+                                   href="http://localhost.com/magentobase/watch/?___SID=Ubrands/deerbend">
+                                                                            <img alt="Deerbend"
+                                             src="http://localhost.com/magentobase/media/arw/brand/deerbend.jpg">
+                                                                    </a>
+                            </div>
+                                                    </div>
+                    </div>
+                                    <div class="brand-item">
+                        <div class="brand-item-inner">
+                            <div class="brand-image">
+                                <a class="brand-img" title="Hosoren"
+                                   href="http://localhost.com/magentobase/watch/?___SID=Ubrands/hosoren">
+                                                                            <img alt="Hosoren"
+                                             src="http://localhost.com/magentobase/media/arw/brand/hosoren.jpg">
+                                                                    </a>
+                            </div>
+                                                    </div>
+                    </div>
+                                    <div class="brand-item">
+                        <div class="brand-item-inner">
+                            <div class="brand-image">
+                                <a class="brand-img" title="HH"
+                                   href="http://localhost.com/magentobase/watch/?___SID=Ubrands/hh">
+                                                                            <img alt="HH"
+                                             src="http://localhost.com/magentobase/media/arw/brand/hh.jpg">
+                                                                    </a>
+                            </div>
+                                                    </div>
+                    </div>
+                                    <div class="brand-item">
+                        <div class="brand-item-inner">
+                            <div class="brand-image">
+                                <a class="brand-img" title="Retro Design"
+                                   href="http://localhost.com/magentobase/watch/?___SID=Ubrands/retro-design">
+                                                                            <img alt="Retro Design"
+                                             src="http://localhost.com/magentobase/media/arw/brand/retro-design.jpg">
+                                                                    </a>
+                            </div>
+                                                    </div>
+                    </div>
+                            </div>
+                            <div class="owl-nav"></div>
+                        <script type="text/javascript">
+                jQuery(function ($) {
+                    var options = {
+                        infinite: true,
+                        slidesToShow: 4,
+                        slidesToScroll: 3,
+                        autoplay: true,
+                        autoplaySpeed: 3000,
+                        arrows: false,
+                        dots: true,
+                        vertical: false,
+                        speed: 300                    };
+                            options.appendArrows = $('#brands-list-slider-26346 .owl-nav');
+                    options.prevArrow = '<div class="owl-prev">prev</div>';
+                    options.nextArrow = '<div class="owl-next">next</div>';
+                            $('#brands-list-slider-26346 .brands-list-slider').slick(options);
+                });
+            </script>
+        </div>
+    
+		</div>
+	</div>
+</div></div>

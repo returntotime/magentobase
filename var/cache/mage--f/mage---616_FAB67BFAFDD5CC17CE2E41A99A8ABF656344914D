@@ -1,0 +1,9 @@
+<script type="text/javascript">
+    if (document.cookie.length && (document.cookie.indexOf('PAGECACHE_FORMKEY=') == -1)) {
+        Mage.Cookies.set(
+            'PAGECACHE_FORMKEY',
+            'vRsAPwgwH8djqd0C',
+            new Date(new Date().getTime() + 3600000)
+        );
+    }
+</script>

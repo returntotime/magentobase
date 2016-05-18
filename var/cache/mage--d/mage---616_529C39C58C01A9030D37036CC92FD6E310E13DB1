@@ -1,0 +1,125 @@
+<footer class="footer-container">
+    <div class="arw_sebian_block_footer">
+	<div class="widget widget-static-block"><div class="arw_sebian_watch_block_footer_top">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="footer-logo text-center">
+					<a href="#" title="ARW Sebian">
+						<img src="http://localhost.com/magentobase/media/wysiwyg/arw/logo-footer.png" alt="ARW Sebian"/>
+					</a>
+				</div>
+				<div class="footer-sub-logo text-center">
+					<img src="http://localhost.com/magentobase/media/wysiwyg/arw/custom_icon_blue.png" alt="ARW Sebian"/>
+				</div>
+			</div>
+			<div class="footer-about">
+				Multipurpose E-Commerce Theme is suitable for furniture store, fashion shop, accessories, electric shop. We have included multiple layouts for home page to give you best selections in customization.
+			</div>
+		</div>
+	</div>
+</div></div>
+
+	<div class="widget widget-static-block"><div class="arw_sebian_block_footer_bottom">
+	<div class="container">
+		<div class="row">
+			<div class="arw-col col-xs-6 col-sm-6 col-md-3 col-lg-3">
+				<div class="widget widget-static-block"><div class="block block-custom-link">
+	<div class="block-title">
+		<span>INFOMATION</span>
+	</div>
+	<div class="block-content">
+		<ul>
+			<li><a href="#">ABOUT US</a></li>
+			<li><a href="#">DELIVERY INFOMATION</a></li>
+			<li><a href="#">PRIVACY & POLICY</a></li>
+			<li><a href="#">TEMRS & CONDITIONS</a></li>
+			<li><a href="#">MANUFACTURES</a></li>
+		</ul>
+	</div>
+</div></div>
+
+			</div>
+			<div class="arw-col col-xs-6 col-sm-6 col-md-3 col-lg-3">
+				<div class="widget widget-static-block"><div class="block block-custom-link">
+	<div class="block-title">
+		<span>MY ACCOUNT</span>
+	</div>
+	<div class="block-content">
+		<ul>
+			<li><a href="#">MY ACCOUNT</a></li>
+			<li><a href="#">LOGIN</a></li>
+			<li><a href="#">MY CART</a></li>
+			<li><a href="#">WISHLIST</a></li>
+			<li><a href="#">CHECKOUT</a></li>
+		</ul>
+	</div>
+</div></div>
+
+			</div>
+			<div class="arw-col col-xs-6 col-sm-6 col-md-3 col-lg-3">
+				<div class="widget widget-static-block"><div class="block block-custom-twitter-feed">
+	<div class="block-title">
+		<span>TWITTER</span>
+	</div>
+	<div class="block-content">
+		<ul>
+			<li class="twitter-feed-item">
+				Check out new work on my @Behance portfolio: "ARW Sebian Theme" <a target="_blank" href="http://on.be.net/1zOOfBQ">http://on.be.net/1zOOfBQ</a>
+			</li>
+			<li class="twitter-feed-item">
+				Check out new work on my @Behance portfolio: "ARW Sebian Theme" <a target="_blank" href="http://on.be.net/1zOOfBQ">http://on.be.net/1zOOfBQ</a>
+			</li>
+		</ul>
+	</div>
+</div></div>
+
+			</div>
+			<div class="arw-col col-xs-6 col-sm-6 col-md-3 col-lg-3">
+				<div class="widget widget-static-block"><div class="block block-custom-flickr-photo">
+	<div class="block-title">
+		<span>FLICKR PHOTO</span>
+	</div>
+	<div class="block-content">
+		<div class="row">
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<a href="#"><img src="http://localhost.com/magentobase/media/wysiwyg/arw/_flickr_photo/flickr_image_1.jpg" alt="" /></a>
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<a href="#"><img src="http://localhost.com/magentobase/media/wysiwyg/arw/_flickr_photo/flickr_image_2.jpg" alt="" /></a>
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<a href="#"><img src="http://localhost.com/magentobase/media/wysiwyg/arw/_flickr_photo/flickr_image_3.jpg" alt="" /></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<a href="#"><img src="http://localhost.com/magentobase/media/wysiwyg/arw/_flickr_photo/flickr_image_4.jpg" alt="" /></a>
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<a href="#"><img src="http://localhost.com/magentobase/media/wysiwyg/arw/_flickr_photo/flickr_image_5.jpg" alt="" /></a>
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<a href="#"><img src="http://localhost.com/magentobase/media/wysiwyg/arw/_flickr_photo/flickr_image_6.jpg" alt="" /></a>
+			</div>
+		</div>
+	</div>
+</div></div>
+
+			</div>
+		</div>
+	</div>
+</div></div>
+
+</div>    <div class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="wrapper-copyright">
+                        <address>&copy; 2015 <a href="http://www.arexmage.com/magento-themes.html" title="Magento Theme" target="_blank">Magento Theme</a> by ArexWorks. All Rights Reserved.</address>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
