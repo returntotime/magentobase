@@ -13,35 +13,46 @@
     <div class="slider-tab-toggle"><span></span></div>
 	<ul class="slider-tab"><!--
     --><li id="tab_14_home_sport_product_1" class="active first" data-enable-countdown="0" title="Men's Watches"><span><span>Men's Watches</span></span></li><!----><li id="tab_15_home_sport_product_1" class="" data-enable-countdown="0" title="Ladies' Watches"><span><span>Ladies' Watches</span></span></li><!----><li id="tab_16_home_sport_product_1" class="last" data-enable-countdown="0" title="New Watches"><span><span>New Watches</span></span></li><!--	--></ul>
-	<div id="tab_14_home_sport_product_1_contents">    <div id="product-list-2279">
+	<div id="tab_14_home_sport_product_1_contents">    <div id="product-list-30352">
             <ul class="products-grid arw-4-col arw-row">
                                                                             <li class="arw-col item">
                                 <div class="wrapper-item">
-                                        <input type="hidden" value="44" name="product"/>
+                    <div class="arw-product-labels"><span class="arw-product-label product-new-label">New</span><span class="arw-product-label product-sale-label"><span>-16%</span><span class="no-display">Sale</span></span></div>                    <input type="hidden" value="43" name="product"/>
                     <div class="wrapper-item-inner  transform-effect vertical-effect skin1-effect">
                         <div class="outer-image">
-                            <a class="product-image" href="http://localhost.com/magentobase/watch/rose-gold-striped-canvas.html?___SID=U" title="Rose Gold Striped Canvas"><img class="front product-collection-image" src="http://localhost.com/magentobase/media/catalog/product/cache/6/small_image/540x676/170ec19af00183b5e0368529fc2daa2f/6/5/650122_01.jpg"
-                        alt="Rose Gold Striped Canvas" /><img class="back" src="http://localhost.com/magentobase/media/catalog/product/cache/6/small_image/540x676/170ec19af00183b5e0368529fc2daa2f/6/5/650122_02.jpg"
-                                        alt="Rose Gold Striped Canvas"/><div class="image-overlay"></div></a>                        </div>
+                            <a class="product-image" href="http://localhost.com/magentobase/watch/luke-stainless-steel-watch-1791121.html?___SID=U" title="Luke Stainless Steel"><img class="front product-collection-image" src="http://localhost.com/magentobase/media/catalog/product/cache/6/small_image/540x676/170ec19af00183b5e0368529fc2daa2f/6/6/667930_01.jpg"
+                        alt="Luke Stainless Steel" /><img class="back" src="http://localhost.com/magentobase/media/catalog/product/cache/6/small_image/540x676/170ec19af00183b5e0368529fc2daa2f/6/6/667930_02.jpg"
+                                        alt="Luke Stainless Steel"/><div class="image-overlay"></div></a>                        </div>
                                                 <div class="actions">
                             <div class="link-actions">
-                                <a data-toggle="tooltip" href="http://localhost.com/magentobase/watch/arexworks/quickview/index/product_id/44/?___SID=U" class="button link-quickview" title="Quick View"><span class="fa fa-search"></span></a><a data-toggle="tooltip" href="http://localhost.com/magentobase/watch/catalog/product_compare/add/product/44/uenc/aHR0cDovL2xvY2FsaG9zdC5jb20vbWFnZW50b2Jhc2Uv/form_key/vRsAPwgwH8djqd0C/?___SID=U" class="button link-compare" title="Add to Compare"><span class="fa fa-retweet"></span></a><a data-toggle="tooltip" href="http://localhost.com/magentobase/watch/wishlist/index/add/product/44/form_key/vRsAPwgwH8djqd0C/?___SID=U" class="button link-wishlist" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>                            </div>
-                                                            <button onclick="setLocation('http://localhost.com/magentobase/watch/checkout/cart/add/uenc/aHR0cDovL2xvY2FsaG9zdC5jb20vbWFnZW50b2Jhc2Uv/product/44/form_key/vRsAPwgwH8djqd0C/?___SID=U')" class="button btn-cart" title="Add to Cart"><span><span>Add to Cart</span></span></button>
+                                <a data-toggle="tooltip" href="http://localhost.com/magentobase/watch/arexworks/quickview/index/product_id/43/?___SID=U" class="button link-quickview" title="Quick View"><span class="fa fa-search"></span></a><a data-toggle="tooltip" href="http://localhost.com/magentobase/watch/catalog/product_compare/add/product/43/uenc/aHR0cDovL2xvY2FsaG9zdC5jb20vbWFnZW50b2Jhc2Uv/form_key/vRsAPwgwH8djqd0C/?___SID=U" class="button link-compare" title="Add to Compare"><span class="fa fa-retweet"></span></a><a data-toggle="tooltip" href="http://localhost.com/magentobase/watch/wishlist/index/add/product/43/form_key/vRsAPwgwH8djqd0C/?___SID=U" class="button link-wishlist" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>                            </div>
+                                                            <button onclick="setLocation('http://localhost.com/magentobase/watch/checkout/cart/add/uenc/aHR0cDovL2xvY2FsaG9zdC5jb20vbWFnZW50b2Jhc2Uv/product/43/form_key/vRsAPwgwH8djqd0C/?___SID=U')" class="button btn-cart" title="Add to Cart"><span><span>Add to Cart</span></span></button>
                                                                                                                                             </div>
                                                                     </div>
                                         <div class="product-info">
                         <h2 class="product-name">
-                            <a href="http://localhost.com/magentobase/watch/rose-gold-striped-canvas.html?___SID=U" title="Rose Gold Striped Canvas">
-                                <span>Rose Gold Striped Canvas</span>
+                            <a href="http://localhost.com/magentobase/watch/luke-stainless-steel-watch-1791121.html?___SID=U" title="Luke Stainless Steel">
+                                <span>Luke Stainless Steel</span>
                             </a>
                         </h2>
                         
 
                         
     <div class="price-box">
-                                                                <span class="regular-price" id="product-price-44-clone">
-                                                                        <span class="price">$149.00</span>                                                            </span>
-                        
+                                            
+                    <p class="old-price">
+                <span class="price-label">Regular Price:</span>
+                <span class="price" id="old-price-43-clone">
+                    $155.00                </span>
+            </p>
+
+                            <p class="special-price">
+                    <span class="price-label">Special Price</span>
+                <span class="price" content="129.99" id="product-price-43-clone">
+                    $129.99                </span>
+                </p>
+                    
+    
         </div>
 
                     </div>
@@ -112,42 +123,31 @@
                                     </li>
                                                                                                                 <li class="arw-col item">
                                 <div class="wrapper-item">
-                    <div class="arw-product-labels"><span class="arw-product-label product-new-label">New</span><span class="arw-product-label product-sale-label"><span>-16%</span><span class="no-display">Sale</span></span></div>                    <input type="hidden" value="43" name="product"/>
+                                        <input type="hidden" value="44" name="product"/>
                     <div class="wrapper-item-inner  transform-effect vertical-effect skin1-effect">
                         <div class="outer-image">
-                            <a class="product-image" href="http://localhost.com/magentobase/watch/luke-stainless-steel-watch-1791121.html?___SID=U" title="Luke Stainless Steel"><img class="front product-collection-image" src="http://localhost.com/magentobase/media/catalog/product/cache/6/small_image/540x676/170ec19af00183b5e0368529fc2daa2f/6/6/667930_01.jpg"
-                        alt="Luke Stainless Steel" /><img class="back" src="http://localhost.com/magentobase/media/catalog/product/cache/6/small_image/540x676/170ec19af00183b5e0368529fc2daa2f/6/6/667930_02.jpg"
-                                        alt="Luke Stainless Steel"/><div class="image-overlay"></div></a>                        </div>
+                            <a class="product-image" href="http://localhost.com/magentobase/watch/rose-gold-striped-canvas.html?___SID=U" title="Rose Gold Striped Canvas"><img class="front product-collection-image" src="http://localhost.com/magentobase/media/catalog/product/cache/6/small_image/540x676/170ec19af00183b5e0368529fc2daa2f/6/5/650122_01.jpg"
+                        alt="Rose Gold Striped Canvas" /><img class="back" src="http://localhost.com/magentobase/media/catalog/product/cache/6/small_image/540x676/170ec19af00183b5e0368529fc2daa2f/6/5/650122_02.jpg"
+                                        alt="Rose Gold Striped Canvas"/><div class="image-overlay"></div></a>                        </div>
                                                 <div class="actions">
                             <div class="link-actions">
-                                <a data-toggle="tooltip" href="http://localhost.com/magentobase/watch/arexworks/quickview/index/product_id/43/?___SID=U" class="button link-quickview" title="Quick View"><span class="fa fa-search"></span></a><a data-toggle="tooltip" href="http://localhost.com/magentobase/watch/catalog/product_compare/add/product/43/uenc/aHR0cDovL2xvY2FsaG9zdC5jb20vbWFnZW50b2Jhc2Uv/form_key/vRsAPwgwH8djqd0C/?___SID=U" class="button link-compare" title="Add to Compare"><span class="fa fa-retweet"></span></a><a data-toggle="tooltip" href="http://localhost.com/magentobase/watch/wishlist/index/add/product/43/form_key/vRsAPwgwH8djqd0C/?___SID=U" class="button link-wishlist" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>                            </div>
-                                                            <button onclick="setLocation('http://localhost.com/magentobase/watch/checkout/cart/add/uenc/aHR0cDovL2xvY2FsaG9zdC5jb20vbWFnZW50b2Jhc2Uv/product/43/form_key/vRsAPwgwH8djqd0C/?___SID=U')" class="button btn-cart" title="Add to Cart"><span><span>Add to Cart</span></span></button>
+                                <a data-toggle="tooltip" href="http://localhost.com/magentobase/watch/arexworks/quickview/index/product_id/44/?___SID=U" class="button link-quickview" title="Quick View"><span class="fa fa-search"></span></a><a data-toggle="tooltip" href="http://localhost.com/magentobase/watch/catalog/product_compare/add/product/44/uenc/aHR0cDovL2xvY2FsaG9zdC5jb20vbWFnZW50b2Jhc2Uv/form_key/vRsAPwgwH8djqd0C/?___SID=U" class="button link-compare" title="Add to Compare"><span class="fa fa-retweet"></span></a><a data-toggle="tooltip" href="http://localhost.com/magentobase/watch/wishlist/index/add/product/44/form_key/vRsAPwgwH8djqd0C/?___SID=U" class="button link-wishlist" title="Add to Wishlist"><span class="fa fa-heart-o"></span></a>                            </div>
+                                                            <button onclick="setLocation('http://localhost.com/magentobase/watch/checkout/cart/add/uenc/aHR0cDovL2xvY2FsaG9zdC5jb20vbWFnZW50b2Jhc2Uv/product/44/form_key/vRsAPwgwH8djqd0C/?___SID=U')" class="button btn-cart" title="Add to Cart"><span><span>Add to Cart</span></span></button>
                                                                                                                                             </div>
                                                                     </div>
                                         <div class="product-info">
                         <h2 class="product-name">
-                            <a href="http://localhost.com/magentobase/watch/luke-stainless-steel-watch-1791121.html?___SID=U" title="Luke Stainless Steel">
-                                <span>Luke Stainless Steel</span>
+                            <a href="http://localhost.com/magentobase/watch/rose-gold-striped-canvas.html?___SID=U" title="Rose Gold Striped Canvas">
+                                <span>Rose Gold Striped Canvas</span>
                             </a>
                         </h2>
                         
 
                         
     <div class="price-box">
-                                            
-                    <p class="old-price">
-                <span class="price-label">Regular Price:</span>
-                <span class="price" id="old-price-43-clone">
-                    $155.00                </span>
-            </p>
-
-                            <p class="special-price">
-                    <span class="price-label">Special Price</span>
-                <span class="price" content="129.99" id="product-price-43-clone">
-                    $129.99                </span>
-                </p>
-                    
-    
+                                                                <span class="regular-price" id="product-price-44-clone">
+                                                                        <span class="price">$149.00</span>                                                            </span>
+                        
         </div>
 
                     </div>
@@ -158,18 +158,18 @@
     <script type="text/javascript">
         jQuery(document).ready(function(){
                         setTimeout(function(){
-                equalheight2(jQuery('#product-list-2279 .products-slide'),'.product-name');
+                equalheight2(jQuery('#product-list-30352 .products-slide'),'.product-name');
             },1000);
             jQuery(window)
                 .load(function(){
-                    equalheight2(jQuery('#product-list-2279 .products-slide'),'.product-name');
+                    equalheight2(jQuery('#product-list-30352 .products-slide'),'.product-name');
                 })
                 .resize(function(){
                     setTimeout(function(){
-                        equalheight2(jQuery('#product-list-2279 .products-slide'),'.product-name');
+                        equalheight2(jQuery('#product-list-30352 .products-slide'),'.product-name');
                     },1000);
                 })
-            arexworks.Frontend.initOwlGalleryImage(jQuery('#product-list-2279 .product-image.product-image-slideshow .wrapper-slideshow'));
+            arexworks.Frontend.initOwlGalleryImage(jQuery('#product-list-30352 .product-image.product-image-slideshow .wrapper-slideshow'));
         });
     </script>
 </div><div id="tab_15_home_sport_product_1_contents"></div><div id="tab_16_home_sport_product_1_contents"></div>	<div class="ajax_loading_tab"></div>

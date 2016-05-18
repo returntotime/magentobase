@@ -9,7 +9,7 @@
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-		                <div id="brands-list-slider-17977" class="brands-widget normal-slider">
+		                <div id="brands-list-slider-24218" class="brands-widget normal-slider">
             <div class="brands-list-slider">
                                     <div class="brand-item">
                         <div class="brand-item-inner">
@@ -113,10 +113,10 @@
                         dots: true,
                         vertical: false,
                         speed: 300                    };
-                            options.appendArrows = $('#brands-list-slider-17977 .owl-nav');
+                            options.appendArrows = $('#brands-list-slider-24218 .owl-nav');
                     options.prevArrow = '<div class="owl-prev">prev</div>';
                     options.nextArrow = '<div class="owl-next">next</div>';
-                            $('#brands-list-slider-17977 .brands-list-slider').slick(options);
+                            $('#brands-list-slider-24218 .brands-list-slider').slick(options);
                 });
             </script>
         </div>

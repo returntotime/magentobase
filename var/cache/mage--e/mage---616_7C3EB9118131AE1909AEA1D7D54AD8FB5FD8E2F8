@@ -39,20 +39,20 @@
     <div class="block-title">
         <strong><span>Newsletter</span></strong>
     </div>
-    <form class="newsletter-validate-detail" action="http://localhost.com/magentobase/watch/newsletter/subscriber/new/?___SID=U" method="post" id="newsletter-validate-detail-11776">
+    <form class="newsletter-validate-detail" action="http://localhost.com/magentobase/watch/newsletter/subscriber/new/?___SID=U" method="post" id="newsletter-validate-detail-22341">
         <div class="block-content">
             <div class="input-box">
                <input placeholder="YOUR EMAIL ADDRESS.." type="text" name="email" id="newsletter" title="YOUR EMAIL ADDRESS.." class="input-text required-entry validate-email" />
             </div>
             <div class="actions">
-                <button id="button-newsletter-validate-detail-11776" type="submit" title="Subscribe" class="button"><span><span>Subscribe</span></span></button>
+                <button id="button-newsletter-validate-detail-22341" type="submit" title="Subscribe" class="button"><span><span>Subscribe</span></span></button>
             </div>
         </div>
     </form>
     <script type="text/javascript">
     //<![CDATA[
-        var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail-11776',false);
-        $('newsletter-validate-detail-11776').observe('submit', function(){
+        var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail-22341',false);
+        $('newsletter-validate-detail-22341').observe('submit', function(){
             setTimeout(function(){
                 newsletterSubscriberFormDetail.validator.reset();
             },5000);

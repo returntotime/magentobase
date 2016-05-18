@@ -5,7 +5,7 @@
     <div class="slider-tab-toggle"><span></span></div>
 	<ul class="slider-tab"><!--
     --><li id="tab_7_mini_top_sellers_watches" class="one_tab active first" data-enable-countdown="0" title="Top Sellers"><span><span>Top Sellers</span></span></li><!--	--></ul>
-	<div id="tab_7_mini_top_sellers_watches_contents">    <div id="product-list-13117">
+	<div id="tab_7_mini_top_sellers_watches_contents">    <div id="product-list-22414">
             <ol class="products-list">
                                     <li class="item">
                 <input type="hidden" value="48" name="product"/>
@@ -79,18 +79,18 @@
     <script type="text/javascript">
         jQuery(document).ready(function(){
                         setTimeout(function(){
-                equalheight2(jQuery('#product-list-13117 .products-slide'),'.product-name');
+                equalheight2(jQuery('#product-list-22414 .products-slide'),'.product-name');
             },1000);
             jQuery(window)
                 .load(function(){
-                    equalheight2(jQuery('#product-list-13117 .products-slide'),'.product-name');
+                    equalheight2(jQuery('#product-list-22414 .products-slide'),'.product-name');
                 })
                 .resize(function(){
                     setTimeout(function(){
-                        equalheight2(jQuery('#product-list-13117 .products-slide'),'.product-name');
+                        equalheight2(jQuery('#product-list-22414 .products-slide'),'.product-name');
                     },1000);
                 })
-            arexworks.Frontend.initOwlGalleryImage(jQuery('#product-list-13117 .product-image.product-image-slideshow .wrapper-slideshow'));
+            arexworks.Frontend.initOwlGalleryImage(jQuery('#product-list-22414 .product-image.product-image-slideshow .wrapper-slideshow'));
         });
     </script>
 </div>	<div class="ajax_loading_tab"></div>
@@ -103,7 +103,7 @@
     <div class="slider-tab-toggle"><span></span></div>
 	<ul class="slider-tab"><!--
     --><li id="tab_8_mini_sales_off_watches" class="one_tab active first" data-enable-countdown="0" title="Sales Off"><span><span>Sales Off</span></span></li><!--	--></ul>
-	<div id="tab_8_mini_sales_off_watches_contents">    <div id="product-list-5938">
+	<div id="tab_8_mini_sales_off_watches_contents">    <div id="product-list-15279">
             <ol class="products-list">
                                     <li class="item">
                 <input type="hidden" value="45" name="product"/>
@@ -205,18 +205,18 @@
     <script type="text/javascript">
         jQuery(document).ready(function(){
                         setTimeout(function(){
-                equalheight2(jQuery('#product-list-5938 .products-slide'),'.product-name');
+                equalheight2(jQuery('#product-list-15279 .products-slide'),'.product-name');
             },1000);
             jQuery(window)
                 .load(function(){
-                    equalheight2(jQuery('#product-list-5938 .products-slide'),'.product-name');
+                    equalheight2(jQuery('#product-list-15279 .products-slide'),'.product-name');
                 })
                 .resize(function(){
                     setTimeout(function(){
-                        equalheight2(jQuery('#product-list-5938 .products-slide'),'.product-name');
+                        equalheight2(jQuery('#product-list-15279 .products-slide'),'.product-name');
                     },1000);
                 })
-            arexworks.Frontend.initOwlGalleryImage(jQuery('#product-list-5938 .product-image.product-image-slideshow .wrapper-slideshow'));
+            arexworks.Frontend.initOwlGalleryImage(jQuery('#product-list-15279 .product-image.product-image-slideshow .wrapper-slideshow'));
         });
     </script>
 </div>	<div class="ajax_loading_tab"></div>
@@ -229,7 +229,7 @@
     <div class="slider-tab-toggle"><span></span></div>
 	<ul class="slider-tab"><!--
     --><li id="tab_9_ mini_top_rated_watches" class="one_tab active first" data-enable-countdown="0" title="Top Rated"><span><span>Top Rated</span></span></li><!--	--></ul>
-	<div id="tab_9_ mini_top_rated_watches_contents">    <div id="product-list-19587">
+	<div id="tab_9_ mini_top_rated_watches_contents">    <div id="product-list-27580">
             <ol class="products-list">
                                     <li class="item">
                 <input type="hidden" value="46" name="product"/>
@@ -309,18 +309,18 @@
     <script type="text/javascript">
         jQuery(document).ready(function(){
                         setTimeout(function(){
-                equalheight2(jQuery('#product-list-19587 .products-slide'),'.product-name');
+                equalheight2(jQuery('#product-list-27580 .products-slide'),'.product-name');
             },1000);
             jQuery(window)
                 .load(function(){
-                    equalheight2(jQuery('#product-list-19587 .products-slide'),'.product-name');
+                    equalheight2(jQuery('#product-list-27580 .products-slide'),'.product-name');
                 })
                 .resize(function(){
                     setTimeout(function(){
-                        equalheight2(jQuery('#product-list-19587 .products-slide'),'.product-name');
+                        equalheight2(jQuery('#product-list-27580 .products-slide'),'.product-name');
                     },1000);
                 })
-            arexworks.Frontend.initOwlGalleryImage(jQuery('#product-list-19587 .product-image.product-image-slideshow .wrapper-slideshow'));
+            arexworks.Frontend.initOwlGalleryImage(jQuery('#product-list-27580 .product-image.product-image-slideshow .wrapper-slideshow'));
         });
     </script>
 </div>	<div class="ajax_loading_tab"></div>
