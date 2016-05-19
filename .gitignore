@@ -5,6 +5,6 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # bỏ qua tất cả tập tin trong thư mục var/
-var/
+/var
 # bỏ qua tất cả tập tin trong thư mục media/
-media/
+/media

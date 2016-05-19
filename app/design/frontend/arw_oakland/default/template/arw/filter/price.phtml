@@ -1,0 +1,23 @@
+<?php
+?>
+<?php
+    $bar = Mage::helper('arwfilter')->getConfig('arwfilter/general/bar');
+    $barColor = '#'.Mage::helper('arwfilter')->getConfig('arwfilter/general/bar_color');
+    $min = $max = 0;
+    if($priceParams = $this->getValues()){
+        $min = $priceParams[0];
+        $max = $priceParams[1];
+    }
+?>
+<div id="<?php echo $this->getHash()?>" class="price-slider"></div>
+<div class="layer-price">
+    <?php echo $this->getCurrencySymbol()?><span id="layer-price-min"><?php echo $min?></span>&nbsp;&nbsp;-&nbsp;&nbsp;<?php echo $this->getCurrencySymbol()?><span id="layer-price-max"><?php echo $max?></span>
+</div>
+<div class="layer-price-filter">
+    <label><?php echo $this->getCurrencySymbol()?><input type="number" class="input-text" id="layer-price-min-input" value="<?php echo $min?>" placeholder="<?php echo $this->__('From')?>"/></label>
+    <label><?php echo $this->getCurrencySymbol()?><input type="number" class="input-text" id="layer-price-max-input" value="<?php echo $max?>" placeholder="<?php echo $this->__('To')?>"/></label>
+    <button id="layer-price-filter-button" type="button" class="btn"><?php echo $this->__('Filter')?></button>
+</div>
+<script type="text/javascript">
+    window.arwFilter.initPriceFilter(<?php echo $this->getConfig()?>);
+</script>

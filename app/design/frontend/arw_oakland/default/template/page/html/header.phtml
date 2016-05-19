@@ -1,0 +1,177 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+$show_icon_search   = Mage::helper('sebian')->getCfg('header/show_icon_search');
+$show_search_by_cat = Mage::helper('sebian')->getCfg('header/show_search_by_category');
+$show_language      = Mage::helper('sebian')->getCfg('header/show_language');
+$show_currency      = Mage::helper('sebian')->getCfg('header/show_currency');
+$mini_ajaxcart_icon = Mage::helper('sebian')->getCfg('header/mini_ajaxcart_icon');
+$mini_compare_icon  = Mage::helper('sebian')->getCfg('header/mini_compare_icon');
+$stick_nav          = Mage::helper('sebian')->getCfg('header/sticky_nav');
+$mobile_menu_style  = Mage::helper('sebian')->getCfg('header/mobile_menu_style');
+$header_style       = Mage::helper('sebian')->getCfg('header/style');
+$float_header       = Mage::helper('sebian')->getCfg('header/float_header');
+
+$topLinks = $this->getChildHtml('topLinks');
+$store_language = $this->getChildHtml('store_language');
+$store_currency = $this->getChildHtml('store_currency');
+
+$class_header = array('header-container');
+$class_header[] = 'header_' . $header_style;
+if($stick_nav){
+    $class_header[] = 'header_fixed_menu';
+}
+
+$enable_popup = false;
+$cfg_enable_popup =  Mage::helper('sebian')->getCfg('general/enable_popup');
+if($cfg_enable_popup == 'home'){
+    if($this->getIsHomePage()){
+        $enable_popup = true;
+    }else{
+        $enable_popup = false;
+    }
+}elseif($cfg_enable_popup == 'all'){
+    $enable_popup = true;
+}else{
+    $enable_popup = false;
+}
+?>
+<header class="<?php echo implode(' ',$class_header)?>">
+    <div class="header-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-5 col-lg-5">
+					<?php //echo $store_language;?>
+					<?php echo $this->getChildHtml('header_text');?>
+                </div>
+                <div class="col-sm-6 col-md-2 col-lg-2">
+                    <?php echo $this->getChildHtml('header_phone');?>
+                </div>
+                <div class="header-top-right col-sm-6 col-md-5 col-lg-5">
+                    <div class="header-top-right-inner">
+                        <div class="header-top-link">
+                            <ul class="header-top-link-ul">
+                                <li>
+                                    <span><?php echo $this->__('My Account')?></span>
+                                    <?php echo $topLinks;?>
+                                </li>
+                                <?php if($store_currency):?>
+                                    <?php echo $store_currency;?>
+                                <?php endif;?>
+                            </ul>
+                        </div>
+                        <div class="header-social">
+                            <?php echo $this->getChildHtml('header_social');?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="header-logo">
+                    <?php
+                        $logo_src = $this->getLogoSrc();
+	                    if($float_header){
+		                    $logo_src = $this->getLogoSrcSmall();
+	                    }
+                    ?>
+                    <?php if ($this->getIsHomePage()):?>
+                        <h1 class="logo"><strong class="no-display"><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $logo_src ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
+                    <?php else:?>
+                        <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><strong class="no-display"><?php echo $this->getLogoAlt() ?></strong><img src="<?php echo $logo_src ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
+                    <?php endif?>
+                </div>
+                <nav class="nav-primary-container clearfix">
+                    <div class="wrap-nav">
+                        <div class="arw-toggle-menu-mobile visible-xs">
+                            <div class="arw-btn-menu-mobile" data-style="<?php echo $mobile_menu_style?>">
+                                <label><?php echo $this->__('Menu')?></label>
+                                <span class="fa fa-bars"></span>
+                            </div>
+                        </div>
+                        <div class="sticky-logo">
+                            <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
+                        </div>
+                        <?php echo $this->getChildHtml('topMenu') ?>
+                        <div class="header-quick-access">
+                            <?php if($mini_ajaxcart_icon):?>
+                                <div class="header-mini-cart arw-toggle-container">
+                                    <div class="mini-cart-header arw-mini-cart-header arw-toggle-control">
+                                        <span class="fa fa-shopping-cart"></span>
+                                        <span class="total-badge"><?php echo ($total_item_cart = Mage::getSingleton('checkout/cart')->getItemsCount()) ? $total_item_cart : 0?></span>
+                                    </div>
+                                    <div id="arw_mini_cart_header" class="arw-toggle-content">
+                                        <?php echo $this->getChildHtml('topCart') ?>
+                                    </div>
+                                </div>
+                            <?php endif?>
+	                        <?php if($mini_compare_icon):?>
+	                        <div class="header-mini-cart arw-toggle-container">
+		                        <div class="mini-cart-header arw-toggle-control">
+			                        <span class="fa fa-retweet"></span>
+			                        <span class="total-badge"><?php
+				                        $product_compare_count = $this->helper('catalog/product_compare')->getItemCount();
+				                        if($product_compare_count > 0){ echo $product_compare_count; }else{ echo '0'; } ?></span>
+		                        </div>
+		                        <div class="arw-toggle-content">
+			                        <?php echo $this->getChildHtml('header.top.compare');?>
+		                        </div>
+	                        </div>
+							<?php endif;?>
+                            <?php if($show_icon_search):?>
+                                <div class="arw-toggle-container">
+                                    <div class="arw-toggle-control">
+                                        <span class="fa fa-search"></span>
+                                    </div>
+                                    <div class="arw-toggle-content <?php echo $show_search_by_cat ? 'has_cat_search' : 'not_cat_search';?>">
+                                        <?php echo $this->getChildHtml('topSearch') ?>
+                                    </div>
+                                </div>
+                            <?php endif;?>
+                        </div>
+                        <?php if($mobile_menu_style == 'accordion'):?>
+                            <?php echo $this->getChildHtml('topMenuMobile')?>
+                        <?php endif;?>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<?php echo $this->getChildHtml('topContainer'); ?>
+
+<?php if($enable_popup):?>
+    <?php if($content_popup = $this->getChildHtml('arw_global_popup')):?>
+        <div id="arw_popup_inline">
+            <?php echo $content_popup;?>
+        </div>
+    <?php endif;?>
+<?php endif;?>
