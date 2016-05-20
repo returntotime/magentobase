@@ -1,0 +1,690 @@
+
+@font-face {
+  font-family: 'ConduitITC-Bold';
+  src: url('../fonts/ConduitITC-Bold.eot?#iefix') format('embedded-opentype'),  
+  	   url('../fonts/ConduitITC-Bold.woff') format('woff'), 
+  	   url('../fonts/ConduitITC-Bold.ttf')  format('truetype'), 
+  	   url('../fonts/ConduitITC-Bold.svg#ConduitITC-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ConduitITC-Light';
+  src: url('../fonts/ConduitITC-Light.eot?#iefix') format('embedded-opentype'),  
+  	   url('../fonts/ConduitITC-Light.woff') format('woff'), 
+  	   url('../fonts/ConduitITC-Light.ttf')  format('truetype'), 
+  	   url('../fonts/ConduitITC-Light.svg#ConduitITC-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ConduitITC-LightItalic';
+  src: url('../fonts/ConduitITC-LightItalic.eot?#iefix') format('embedded-opentype'),  
+  	   url('../fonts/ConduitITC-LightItalic.woff') format('woff'), 
+  	   url('../fonts/ConduitITC-LightItalic.ttf')  format('truetype'), 
+  	   url('../fonts/ConduitITC-LightItalic.svg#ConduitITC-LightItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ConduitITC-Medium';
+  src: url('../fonts/ConduitITC-Medium.eot?#iefix') format('embedded-opentype'),  
+  	   url('../fonts/ConduitITC-Medium.woff') format('woff'), 
+  	   url('../fonts/ConduitITC-Medium.ttf')  format('truetype'), 
+  	   url('../fonts/ConduitITC-Medium.svg#ConduitITC-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+	font-family: 'ConduitITC-Light';
+	font-size: 15px;
+	color: #000;
+}
+
+a:hover,a:focus, a:active{
+  color:#e05121 !important;
+}
+
+.btn2,.btn-primary,.quickview-index-view .product-img-box-slider .slick-prev,.quickview-index-view .product-img-box-slider .slick-next,.btn3,button,.button,input[type="button"],input[type="reset"],input[type="submit"],.btn,.catalog-owl-next,.catalog-owl-prev,.owl-next,.owl-prev{
+border-color:#000;
+background-color:transparent;
+color:#000;
+}
+.btn2.active,.btn-primary.active,.quickview-index-view .product-img-box-slider .slick-prev.active,.quickview-index-view .product-img-box-slider .slick-next.active,.btn3.active,button.active,.button.active,input[type="button"].active,input[type="reset"].active,input[type="submit"].active,.btn.active,.catalog-owl-next.active,.catalog-owl-prev.active,.owl-next.active,.owl-prev.active,.btn2:active,.btn-primary:active,.quickview-index-view .product-img-box-slider .slick-prev:active,.quickview-index-view .product-img-box-slider .slick-next:active,.btn3:active,button:active,.button:active,input[type="button"]:active,input[type="reset"]:active,input[type="submit"]:active,.btn:active,.catalog-owl-next:active,.catalog-owl-prev:active,.owl-next:active,.owl-prev:active,.btn2:hover,.btn-primary:hover,.quickview-index-view .product-img-box-slider .slick-prev:hover,.quickview-index-view .product-img-box-slider .slick-next:hover,.btn3:hover,button:hover,.button:hover,input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,.btn:hover,.catalog-owl-next:hover,.catalog-owl-prev:hover,.owl-next:hover,.owl-prev:hover,.btn2:focus,.btn-primary:focus,.quickview-index-view .product-img-box-slider .slick-prev:focus,.quickview-index-view .product-img-box-slider .slick-next:focus,.btn3:focus,button:focus,.button:focus,input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,.btn:focus,.catalog-owl-next:focus,.catalog-owl-prev:focus,.owl-next:focus,.owl-prev:focus,.btn2.focus,.btn-primary.focus,.quickview-index-view .product-img-box-slider .slick-prev.focus,.quickview-index-view .product-img-box-slider .slick-next.focus,.btn3.focus,button.focus,.button.focus,input[type="button"].focus,input[type="reset"].focus,input[type="submit"].focus,.btn.focus,.catalog-owl-next.focus,.catalog-owl-prev.focus,.owl-next.focus,.owl-prev.focus{
+color:#fff;
+background-color:#e05121;
+border-color:#e05121;
+}
+.btn2,.btn-primary,.quickview-index-view .product-img-box-slider .slick-prev,.quickview-index-view .product-img-box-slider .slick-next{
+border-color:#fff;
+background-color:transparent;
+color:#fff;
+}
+.btn2.active,.btn-primary.active,.quickview-index-view .product-img-box-slider .slick-prev.active,.quickview-index-view .product-img-box-slider .slick-next.active,.btn2:active,.btn-primary:active,.quickview-index-view .product-img-box-slider .slick-prev:active,.quickview-index-view .product-img-box-slider .slick-next:active,.btn2:hover,.btn-primary:hover,.quickview-index-view .product-img-box-slider .slick-prev:hover,.quickview-index-view .product-img-box-slider .slick-next:hover,.btn2:focus,.btn-primary:focus,.quickview-index-view .product-img-box-slider .slick-prev:focus,.quickview-index-view .product-img-box-slider .slick-next:focus,.btn2.focus,.btn-primary.focus,.quickview-index-view .product-img-box-slider .slick-prev.focus,.quickview-index-view .product-img-box-slider .slick-next.focus{
+border-color:#e05121;
+background-color:#e05121;
+color:#fff;
+}
+.btn3{
+color:#000;
+background:#fff;
+border-color:transparent;
+}
+
+
+.header_text {
+  font-family: 'ConduitITC-Light';
+  text-align: left;
+  line-height: 45px;
+  font-size: 15px;
+}
+
+.header_text span{
+	color: #e05121;
+	padding-left: 10px;
+}
+
+.phone {
+  background: rgba(0, 0, 0, 0) url("../images/icon/phone.png") no-repeat scroll left center;
+  font-family: "ConduitITC-Medium";
+  font-size: 20px;
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  line-height: 45px;
+}
+
+.header-top-link-ul span {
+  font-family: 'AvenirLTStd-Book';
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.header-top-link-ul .links a {
+  font-family: 'AvenirLTStd-Book';
+  font-size: 12px;
+}
+
+.header-container .header-top .header-top-link .header-top-link-ul > li > span {
+  font-family: 'ConduitITC-Medium';
+  font-size: 13px;
+  background: transparent none repeat scroll 0 0;
+  color: #000;
+}
+.header-container .header-top .header-top-link ul.links {
+  background: #000 none repeat scroll 0 0;
+  color: #fff;
+}
+.header-container .header-top .header-top-link ul.links li a {
+  font-family: 'ConduitITC-Medium';
+  background: transparent none repeat scroll 0 0;
+  color: #fff;
+}
+
+/*********menu********/
+.megamenu > li > a {
+  font-family: 'ConduitITC-Medium';
+  font-size: 19px;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 40px;
+  padding: 0 5px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.megamenu > li:hover > a, 
+.megamenu > li.active > a {
+  background: transparent none repeat scroll 0 0;
+  color: #e05121;
+}
+/********cart**********/
+.header-quick-access .fa-shopping-cart::before {
+  content: url('../images/icon/cart.png');
+}
+.header-quick-access .fa-search::before {
+  content: url('../images/icon/search.png');
+}
+
+.header-container .header-quick-access .mini-cart-header .total-badge {
+  background: #e05121 none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #fff;
+  font-family: "ConduitITC-Medium";
+  font-size: 13px;
+  height: 25px;
+  left: 20px;
+  line-height: 25px;
+  position: absolute;
+  top: -20px;
+  width: 25px;
+}
+
+.header-container .header-quick-access .arw-toggle-container.active .arw-toggle-control,.header-container .header-quick-access .arw-toggle-container:hover .arw-toggle-control{
+background:none;
+}
+
+.header-container .header-quick-access .search_mini_form .button{
+background:#e05121;
+}
+.header-container .header-quick-access .search_mini_form .button:hover{
+background:#e05121;
+}
+
+/********Home-section-1*******/
+.arw_sebian_home_watch_block_banner_1 .arw-banner-content {
+  left: 0;
+  position: absolute;
+  top: 42%;
+  transform: translate(0, 0);
+  background: rgba(215, 215, 215, 0.8);
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+.arw-banner-content .text-color-white {
+  font-family: 'ConduitITC-Medium';
+  color: #000!important;
+  font-size: 23px !important;
+}
+
+
+.arw-title {
+  color: #000;
+  font-family: "ConduitITC-Medium";
+  text-transform: uppercase;
+}
+
+.arw-sub-title {
+  color: #e05121;
+  font-family: "ConduitITC-Medium";
+  font-size: 18px;
+  font-style: normal;
+}
+
+.arw_tab_slider .slider-tab li span {
+	font-family: 'ConduitITC-Medium';
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #000;
+}
+.arw_tab_slider .slider-tab li:hover, .arw_tab_slider .slider-tab li.active {
+  border-bottom-color: #ea4812;
+}
+
+
+/***********Blog*******/
+.post-item .post-category {
+  font-family: 'ConduitITC-Medium';
+  font-size: 19px;
+  margin: 0 0 5px;
+  text-transform: uppercase;
+}
+.post-item .post-title {
+  font-family: "ConduitITC-Medium";
+  font-size: 21px;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+  margin: 0 0 15px;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.post-item .post-excerpt {
+  font-family: 'ConduitITC-Light';
+  font-size: 15px;
+  margin: 0 0 15px;
+}
+.post-item .post-meta {
+  font-family: 'ConduitITC-Medium';
+  border-bottom: 1px solid #ebebeb;
+  border-top: 1px solid #ebebeb;
+  font-size: 13px;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+
+/*****home-section-contact*****/
+.cms-home .contact-form {
+  padding-bottom: 50px;
+}
+
+
+/********home-section-brand***********/
+.slick-slider .slick-dots li button {
+  background: #e05121 none repeat scroll 0 0;
+  border: 2px solid #e05121;
+}
+.slick-slider .slick-dots li.slick-active button {
+	background: #000;
+	border: 2px solid #000;
+}
+
+
+/*******Sidebar*********/
+.sidebar .block .block-title::after {
+  content: none;
+}
+.sidebar .block .block-title {
+  font-family: 'ConduitITC-Medium';
+  background: #fff none repeat scroll 0 0;
+  color: #000;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.sidebar .nav-accordion li.parent .expand {
+  color: #e05121;
+}
+
+.sidebar .nav-accordion .collapse i{
+  color: #000;
+}
+
+.sidebar .nav-accordion li.parent span:hover {
+  color: #e05121;
+}
+
+.sidebar .noUi-horizontal .noUi-handle {
+  background: #e05121 none repeat scroll 0 0;
+  border: 2px solid #e05121 !important;
+  border-radius: 100%;
+  cursor: ew-resize;
+  height: 20px;
+  left: -10px;
+  position: absolute;
+  top: -10px;
+  width: 20px;
+  z-index: 2;
+}
+
+.sidebar .block-layered-nav dt {
+  font-family: 'ConduitITC-Medium';
+  font-size: 24px;
+  border-bottom: 0px solid #ebebeb;
+  color: #000;
+}
+.sidebar .block .block-content {
+  font-family: 'ConduitITC-Medium';
+  font-size: 15px;
+  color: #000;
+}
+.sidebar .block-layered-nav .currently {
+  font-family: 'ConduitITC-Medium';
+  font-size: 15px;
+  color: #000;
+}
+.sidebar .block-layered-nav .currently .label,
+.sidebar .block-layered-nav .currently .value {
+  text-transform: uppercase;
+  color: #000;
+}
+
+.sidebar .block .actions a {
+  color: #e05121;
+}
+.sidebar .block.block-nav a {
+  color: #000;
+  font-family: "ConduitITC-Medium";
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.sidebar .block.block-nav li:hover > a, 
+.sidebar .block.block-nav li.active > a {
+  color: #e05121;
+}
+.sidebar .block.block-nav ul > li > a {
+   border-top: 1px solid #eaeaea;
+}
+
+.sidebar .block.block-nav ul > li.last > a {
+	border-bottom: 1px solid #eaeaea;
+}
+.sidebar .block.block-nav ul ul > li > a {
+	border-top: 1px solid #eaeaea;
+}
+
+.sidebar .block.block-nav ul ul > li.last > a,
+.sidebar .block.block-nav ul ul ul > li.last > a {
+	border-bottom: 0px solid #eaeaea;
+}
+
+.nav-accordion li.level0 + li {
+  border-top: 0px solid #ebebeb;
+}
+
+.sidebar .block.block-nav ul ul li a {
+
+  color: #000;
+  font-family: "ConduitITC-Medium";
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.sidebar .block.block-nav ul ul ul li a {
+  color: #000;
+  font-family: "ConduitITC-Medium";
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+
+/***********Contact**********/
+.contact_store_local {
+	padding-bottom: 15px;
+}
+
+.contact_store_local p, 
+.contact_store_hours p {
+  font-family: "ConduitITC-Light";
+  font-size: 17px;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  line-height: 22px;
+}
+
+.block-contact-form h4{
+  font-family: 'ConduitITC-Bold';
+  font-size: 26px;
+  color: #000;
+}
+.block-contact-form .contact-form label {
+  text-transform: uppercase;
+  font-family: 'ConduitITC-Medium';
+  font-size: 13px;
+  color: #000;
+}
+
+.block-contact-form .contact-form .button {
+  margin: 0;
+  padding: 0;
+  width: 145px;
+  height: 40px;
+  text-align: center;
+}
+.block-contact-form .contact-form p {
+  font-family: 'ConduitITC-Medium';
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.arw_sebian_block_page_contact_before_form_style_1 {
+  padding-bottom: 140px;
+}
+
+.radio_check label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 25px;
+  margin-right: 15px;
+  font-size: 13px;
+}
+.radio_check input[type="radio"] {
+  display: none;
+}
+.radio_check label::before {
+  background-color: #fff;
+  border: 1px solid #929190;
+  bottom: 8px;
+  content: "";
+  display: inline-block;
+  height: 16px;
+  left: 0;
+  margin-right: 10px;
+  position: absolute;
+  width: 16px;
+}
+input[type="radio"]:checked + label::before {
+  color: #929190;
+  content: "\2713";
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+}
+
+
+/*******setup-pages*****/
+
+.arw-page-title .arw_breadcrumbs .breadcrumbs li a, 
+.arw-page-title .arw_breadcrumbs .breadcrumbs li span,
+.arw-page-title .arw_breadcrumbs .breadcrumbs li strong {
+  font-family: 'ConduitITC-Medium';
+  color: #000;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.arw-page-title .arw_breadcrumbs .breadcrumbs li a:hover,
+.arw-page-title .arw_breadcrumbs .breadcrumbs li strong {
+  color: #ea4812;
+}
+
+.cms-page-view .page_heading {
+  margin-bottom: 25px;
+}
+.cms-page-view .inner_content {
+  font-family: "ConduitITC-Light";
+  font-size: 15px;
+  padding-top: 10px;
+}
+.cms-page-view .inner_content .font_medium {
+	font-family: 'ConduitITC-Medium';
+}
+
+
+/********Blog************/
+.block-blog-category ul li a {
+   font-family: 'ConduitITC-Medium';
+   font-size: 15px;
+   color: #000;
+   text-transform: uppercase;
+}
+.block-blog-category ul li.
+.blog-list .post-item h2.post-title {
+	font-family: 'ConduitITC-Medium';
+	font-size: 29px;
+	color: #000;
+	text-transform: capitalize;
+}
+
+.title-divider-style-4, 
+.title-divider-style-3, 
+.title-divider-style-2, 
+.title-divider-style-1 {
+  border-color: #e05121;
+}
+
+
+/********Category********/
+.toolbar {
+  font-family: 'ConduitITC-Medium';
+  font-size: 14px;
+  background: #fff none repeat scroll 0 0;
+  color: #000;
+}
+
+.toolbar .view-mode .list, 
+.toolbar .view-mode .grid {
+  font-family: 'ConduitITC-Medium';
+  border: 1px solid #000;
+  float: left;
+  font-size: 15px;
+  line-height: 28px;
+  margin-right: 10px;
+  text-align: center;
+  width: 30px;
+}
+
+.toolbar .btn-group.bootstrap-select {
+  font-family: 'ConduitITC-Medium';
+  font-size: 14px;
+  border: 1px solid #ebebeb;
+}
+.toolbar .btn-group.bootstrap-select .caret {
+  color: #e05121;
+}
+.toolbar .bootstrap-select .btn {
+  font-family: 'ConduitITC-Medium';
+  box-shadow: none;
+  font-size: 14px;
+  line-height: 28px;
+  outline: medium none !important;
+  padding: 0 10px;
+  border: none;
+}
+
+.toolbar a, .toolbar .btn {
+  background: transparent none repeat scroll 0 0;
+  color: #000;
+  font-weight: 400;
+}
+.toolbar a:hover, 
+.toolbar .btn:hover,
+.toolbar .open .btn {
+	color: #e05121;
+	border: 0px solid #e05121;
+}
+.toolbar .view-mode strong {
+  background: transparent none repeat scroll 0 0;
+  border-color: #e05121;
+  color: #e05121;
+}
+.toolbar .view-limiter a.selected {
+  background: transparent none repeat scroll 0 0;
+  color: #e05121;
+}
+
+.products-grid .outer-image {
+  border: 1px solid #ebebeb;
+}
+.products-grid .product-name {
+  font-family: 'ConduitITC-Light';
+  font-size: 18px;
+  color: #000;
+  border-bottom: 1px solid #eaeaea;
+
+}
+.products-grid .price-box {
+  font-family: 'ConduitITC-Medium';
+  font-size: 18px;
+  color: #e05121;
+}
+
+.products-grid .price-box .minimal-price .price, 
+.products-grid .price-box .special-price, 
+.products-grid .price-box .regular-price {
+  color: #e05121;
+}
+
+.products-grid .btn-cart:hover {
+  background: #e05121;
+  border: 1px solid #e05121;
+}
+.products-grid .link-actions a:hover {
+  background: #e05121;
+  border: 1px solid #e05121;
+
+}
+.products-grid .link-actions a:hover span {
+  color: #fff;
+}
+/*******product-detail******/
+.product-view .product-essential .product-name {
+  font-family: 'ConduitITC-Bold';
+  font-size: 28px;
+  color: #000000;
+}
+
+.product-view .product-essential .price-box {
+  font-family: 'ConduitITC-Bold';
+  font-size: 34px;
+  color: #e05121;
+}
+.product-view .product-essential .price-box .special-price, 
+.product-view .product-essential .price-box .regular-price {
+  color: #e05121;
+}
+.product-view .product-sku {
+  font-family: 'ConduitITC-Light';
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.product-view .product-essential .ratings {
+  padding: 0.2em 0;
+}
+.product-view .product-essential .short-description {
+  border-bottom: 1px solid #ebebeb;
+  border-top: 1px solid #ebebeb;
+  font-family: "ConduitITC-Light";
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.product-view #product-options-wrapper > dl dt > label {
+  font-size: 0.917em;
+  font-weight: normal;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.product_details_tabs .product-tabs-content {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #ebebeb;
+  color: #000;
+}
+
+.product_details_tabs .product-tabs li.active a, 
+.product_details_tabs .product-tabs li:hover a {
+  background: #fff none repeat scroll 0 0;
+  color: #e05121;
+}
+
+.arw_tab_slider .owl-nav .owl-prev, 
+.arw_tab_slider .owl-nav .owl-next {
+  border-radius: 100%;
+  background: #fff;
+  color: #e05121;
+}
+
+
+/********Footer*********/
+.arw_sebian_block_footer_bottom {
+  padding: 45px 0;
+}
+#instafeed a {
+  display: block;
+  float: left;
+  margin-bottom: 0;
+  padding: 5px;
+  width: 85px;
+}
+.footer-container .block .block-title {
+  font-family: 'ConduitITC-Bold';
+  font-size: 25px;
+  color: #fff;
+}
+.footer-container .block .block-content a {
+  font-family: 'ConduitITC-Medium';
+  font-size: 17px;
+  color: #c5c5c5;
+  text-transform: uppercase;
+}
+.footer-container .footer-copyright .wrapper-copyright {
+  border-top: 1px solid #4a4a4a;
+  font-family: 'ConduitITC-Medium';
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #c5c5c5;
+}
+#btn_control_totop a:hover i {
+  color: #fff;
+}

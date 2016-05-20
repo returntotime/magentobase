@@ -89,11 +89,18 @@
             <action method="addCss"><stylesheet helper="sebian/cssgen/getDesignFile"/></action>
             <!-- Custom CSS (has to be enabled in admin) -->
             <action method="addCss" ifconfig="sebian/customization/custom_css"><stylesheet>css/custom.css</stylesheet></action>
+			<action method="addCss"><stylesheet>css/oakland.custom.css</stylesheet></action>
         </reference>
         <reference name="header">
             <block type="directory/currency" name="store_currency" template="directory/top-currency.phtml"/>
             <block type="cms/block" name="header_social">
                 <action method="setBlockId"><block_id>arw_sebian_header_social</block_id></action>
+            </block>
+			<block type="cms/block" name="header_text">
+                <action method="setBlockId"><block_id>oakland_header_text</block_id></action>
+            </block>
+            <block type="cms/block" name="header_phone">
+                <action method="setBlockId"><block_id>oakland_phone</block_id></action>
             </block>
             <block type="checkout/cart_sidebar" name="top.cart" as="topCart" template="checkout/cart/top-cart.phtml">
                 <action method="addItemRender"><type>simple</type><block>checkout/cart_item_renderer</block><template>checkout/cart/sidebar/default.phtml</template></action>
