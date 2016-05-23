@@ -1,3 +1,212 @@
 /*
     Custom css
 */
+@font-face {
+  font-family: 'museo_slab_300webfont';
+  src: url('../fonts/museo_slab_300webfont.eot?#iefix') format('embedded-opentype'),  
+  	   url('../fonts/museo_slab_300webfont.woff') format('woff'), 
+  	   url('../fonts/museo_slab_300webfont.ttf')  format('truetype'), 
+  	   url('../fonts/museo_slab_300webfont.svg#museo_slab_300webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Museo_Slab_300italic';
+  src: url('../fonts/Museo_Slab_300italic.eot?#iefix') format('embedded-opentype'),  
+  	   url('../fonts/Museo_Slab_300italic.woff') format('woff'), 
+  	   url('../fonts/Museo_Slab_300italic.ttf')  format('truetype'), 
+  	   url('../fonts/Museo_Slab_300italic.svg#Museo_Slab_300italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'museo_slab_500webfont';
+  src: url('../fonts/museo_slab_500webfont.eot?#iefix') format('embedded-opentype'),  
+  	   url('../fonts/museo_slab_500webfont.woff') format('woff'), 
+  	   url('../fonts/museo_slab_500webfont.ttf')  format('truetype'), 
+  	   url('../fonts/museo_slab_500webfont.svg#museo_slab_500webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo_Slab_500italic';
+  src: url('../fonts/Museo_Slab_500italic.eot?#iefix') format('embedded-opentype'),  
+  	   url('../fonts/Museo_Slab_500italic.woff') format('woff'), 
+  	   url('../fonts/Museo_Slab_500italic.ttf')  format('truetype'), 
+  	   url('../fonts/Museo_Slab_500italic.svg#Museo_Slab_500italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'museo_slab_700webfont';
+  src: url('../fonts/museo_slab_700webfont.eot?#iefix') format('embedded-opentype'),  
+  	   url('../fonts/museo_slab_700webfont.woff') format('woff'), 
+  	   url('../fonts/museo_slab_700webfont.ttf')  format('truetype'), 
+  	   url('../fonts/museo_slab_700webfont.svg#museo_slab_700webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Museo_Slab_700italic';
+  src: url('../fonts/Museo_Slab_700italic.eot?#iefix') format('embedded-opentype'),  
+  	   url('../fonts/Museo_Slab_700italic.woff') format('woff'), 
+  	   url('../fonts/Museo_Slab_700italic.ttf')  format('truetype'), 
+  	   url('../fonts/Museo_Slab_700italic.svg#Museo_Slab_700italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo_Slab_900';
+  src: url('../fonts/Museo_Slab_900.eot?#iefix') format('embedded-opentype'),  
+  	   url('../fonts/Museo_Slab_900.woff') format('woff'), 
+  	   url('../fonts/Museo_Slab_900.ttf')  format('truetype'), 
+  	   url('../fonts/Museo_Slab_900.svg#Museo_Slab_900') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Museo_Slab_900italic';
+  src: url('../fonts/Museo_Slab_900italic.eot?#iefix') format('embedded-opentype'),  
+  	   url('../fonts/Museo_Slab_900italic.woff') format('woff'), 
+  	   url('../fonts/Museo_Slab_900italic.ttf')  format('truetype'), 
+  	   url('../fonts/Museo_Slab_900italic.svg#Museo_Slab_900italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+@font-face {
+  font-family: 'chunkfive-webfont';
+  src: url('../fonts/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),  
+  	   url('../fonts/chunkfive-webfont.woff') format('woff'), 
+  	   url('../fonts/chunkfive-webfont.ttf')  format('truetype'), 
+  	   url('../fonts/chunkfive-webfont.svg#chunkfive-webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  background: #fff none repeat scroll 0 0;
+  color: #000;
+  font-family: "museo_slab_500webfont";
+  font-size: 15px;
+  height: 100%;
+  margin: 0;
+  min-height: 100%;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.header-top .tagline {
+  color: #ff6d00;
+  font-family: "museo_slab_700webfont";
+  font-size: 13px;
+  padding: 0 15px;
+  line-height: 50px;
+}
+
+.header-top .phone {
+  background: rgba(0, 0, 0, 0) url("../images/icon/icon-phone.png") no-repeat scroll left center;
+  font-family: "museo_slab_700webfont";
+  font-size: 18px;
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  line-height: 50px;
+}
+
+.header-container .header-top .header-top-link span,
+.header-container .header-top .header-top-link ul.links li a {
+  background: transparent none repeat scroll 0 0;
+  font-family: "museo_slab_700webfont";
+  color: #fff;
+  font-size: 13px;
+}
+.header-container .header-top .header-top-link span {
+	color: #000;
+}
+
+.header-container.header_style_1 .header-logo .logo {
+  line-height: 130px;
+  margin: 0;
+  padding-top: 0;
+}
+
+.header-container.header_style_1 .header-logo {
+  padding: 12px 0;
+  text-align: center;
+}
+
+.full-header.container {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+.full-header .nav-primary-container {
+	background: #000;
+}
+.full-header .nav-primary-container .nav-container {
+  border-bottom: 3px solid #ff6d00;
+  border-top: 3px solid #ff6d00;
+  text-align: center;
+}
+
+.full-header .nav-primary-container .nav-container .megamenu >li {
+	padding: 0;
+}
+
+
+
+/***********Footer**********/
+.footer_top .footer_logo {
+	text-align: center;
+}
+
+ 
+.footer_center h5 {
+  color: #ff6d00;
+  font-family: "chunkfive-webfont";
+  font-size: 23px;
+  margin-bottom: 40px;
+}
+
+.footer_center a {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 36px;
+  width: 100%;
+}
+
+
+.footer_bottom {
+	margin-top: 50px;
+}
+.footer_bottom ul {
+  border-top: 1px solid #ebebeb;
+  padding-top: 10px;
+  text-align: center;
+}
+.footer_bottom ul li {
+  display: inline-block;
+  height: 80px;
+  line-height: 80px;
+  margin: 0 15px;
+  vertical-align: middle;
+}

@@ -25,7 +25,35 @@
  */
 ?>
 <footer class="footer-container">
-    <?php echo $this->getChildHtml('arw_global_footer_row') ?>
+    <div class="footer_top">
+        <div class="footer_logo">
+            <a href="<?= Mage::getBaseUrl(); ?>"><img src="<?php echo $this->getSkinUrl();?>images/logo/logo-footer.png" alt="" /></a>
+        </div>
+    </div>
+    <div class="footer_center">
+        <div class="container">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+              <?php echo $this->getChildHtml('footer_links') ?>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+              <?php echo $this->getChildHtml('footer_account') ?>
+
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <?php echo $this->getChildHtml('footer_instagram') ?>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <?php echo $this->getChildHtml('footer_twitter') ?>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <div class="container">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <?php echo $this->getChildHtml('footer_paypal'); ?>
+            </div>
+        </div>
+    </div>
     <div class="footer-copyright">
         <div class="container">
             <div class="row">
