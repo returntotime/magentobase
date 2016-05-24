@@ -179,7 +179,7 @@
             <block type="revslider/slider_preview" name="revo_slide" as="revo_slide" before="-">
                 <action method="setData">
                     <name>id</name>
-                    <value helper="sebian/data/getSliderId" />
+                    <value helper="sebian/data/getSliderId"/>
                 </action>
             </block>
             <block type="cms/block" name="arw_sebian_home_block_top" after="arw_layout_global_top">
