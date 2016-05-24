@@ -253,11 +253,23 @@ background:#e05121;
   text-transform: uppercase;
 }
 
+.post-item .post-category a {
+  color: #e05121;
+}
+
 /*****home-section-contact*****/
 .cms-home .contact-form {
   padding-bottom: 50px;
 }
 
+
+.newsletter-inline .block-subscribe .block-content .actions .button {
+  background: #e05121 none repeat scroll 0 0;
+}
+
+.text-color-primary {
+  color: #e05121 !important;
+}
 
 /********home-section-brand***********/
 .slick-slider .slick-dots li button {
