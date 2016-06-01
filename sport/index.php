@@ -88,3 +88,5 @@ $mageRunCode = 'sport';
 $mageRunType = 'website';
 
 Mage::run($mageRunCode, $mageRunType);
+
+
