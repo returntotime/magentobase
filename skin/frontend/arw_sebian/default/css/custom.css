@@ -293,6 +293,117 @@ body {
 }
 
 
+/*******Sidebar*********/
+.sidebar .block .block-title::after {
+  content: none;
+}
+.sidebar .block .block-title {
+  font-family: 'chunkfive-webfont';
+  background: #fff none repeat scroll 0 0;
+  color: #000;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.sidebar .nav-accordion li.parent .expand {
+  color: #ff6d00;
+}
+
+.sidebar .nav-accordion .collapse i{
+  color: #000;
+}
+
+.sidebar .nav-accordion li.parent span:hover {
+  color: #ff6d00;
+}
+
+.sidebar .noUi-horizontal .noUi-handle {
+  background: #ff6d00 none repeat scroll 0 0;
+  border: 2px solid #ff6d00 !important;
+  border-radius: 100%;
+  cursor: ew-resize;
+  height: 20px;
+  left: -10px;
+  position: absolute;
+  top: -10px;
+  width: 20px;
+  z-index: 2;
+}
+
+.sidebar .block-layered-nav dt {
+  font-family: 'ConduitITC-Medium';
+  font-size: 24px;
+  border-bottom: 0px solid #ebebeb;
+  color: #000;
+}
+.sidebar .block .block-content {
+  font-family: 'ConduitITC-Medium';
+  font-size: 15px;
+  color: #000;
+}
+.sidebar .block-layered-nav .currently {
+  font-family: 'ConduitITC-Medium';
+  font-size: 15px;
+  color: #000;
+}
+.sidebar .block-layered-nav .currently .label,
+.sidebar .block-layered-nav .currently .value {
+  text-transform: uppercase;
+  color: #000;
+}
+
+.sidebar .block .actions a {
+  color: #ff6d00;
+}
+.sidebar .block.block-nav a {
+  color: #000;
+  font-family: "ConduitITC-Medium";
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.sidebar .block.block-nav li:hover > a, 
+.sidebar .block.block-nav li.active > a {
+  color: #ff6d00;
+}
+.sidebar .block.block-nav ul > li > a {
+   border-top: 1px solid #eaeaea;
+}
+
+.sidebar .block.block-nav ul > li.last > a {
+  border-bottom: 1px solid #eaeaea;
+}
+.sidebar .block.block-nav ul ul > li > a {
+  border-top: 1px solid #eaeaea;
+}
+
+.sidebar .block.block-nav ul ul > li.last > a,
+.sidebar .block.block-nav ul ul ul > li.last > a {
+  border-bottom: 0px solid #eaeaea;
+}
+
+.nav-accordion li.level0 + li {
+  border-top: 0px solid #ebebeb;
+}
+
+.sidebar .block.block-nav ul ul li a {
+
+  color: #000;
+  font-family: "ConduitITC-Medium";
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.sidebar .block.block-nav ul ul ul li a {
+  color: #000;
+  font-family: "ConduitITC-Medium";
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+/**********Product**********/
+.products-grid .price-box {
+  font-family: "museo_slab_700webfont";
+  font-size: 16px;
+}
+
 /***********Footer**********/
 .footer_top .footer_logo {
 	text-align: center;
