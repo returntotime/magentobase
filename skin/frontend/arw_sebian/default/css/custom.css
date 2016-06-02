@@ -161,18 +161,136 @@ body {
 
 .full-header .nav-primary-container {
 	background: #000;
-    border-bottom: 3px solid #ff6d00;
+  border-bottom: 3px solid #ff6d00;
   border-top: 3px solid #ff6d00;
 }
 .full-header .nav-primary-container .nav-container {
-
   text-align: center;
 }
 
-.full-header .nav-primary-container .nav-container .megamenu >li {
-	padding: 0;
+.full-header .nav-primary-container .nav-container .megamenu > li {
+  padding: 20px 0;
 }
 
+.full-header .megamenu > li > a {
+  line-height: normal;
+  padding: 0 15px;
+}
+
+
+.full-header .nav-primary-container .nav-container .megamenu >li > li > a:hover, 
+.full-header .nav-primary-container .nav-container .megamenu >li > li > a:active {
+  color: #ff6d00;
+}
+
+.full-header .nav-primary-container .nav-container .megamenu > li > a > span {
+  font-family: 'Museo_Slab_900';
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.active-sticky .megamenu li > a {
+  padding: 0 10px!important
+}
+.active-sticky .full-header .nav-primary-container .nav-container .megamenu > li > a > span {
+  font-family: "Museo_Slab_900";
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.active-sticky .full-header .nav-primary-container {
+  background: #000!important
+}
+.active-sticky .sticky-logo {
+  display: none;
+  width: 0!important;
+}
+
+.megamenu .arwmenu-block ul.level0 > .classic li > a, 
+.megamenu .arwmenu-block ul.level0 > .classic > a {
+  font-family: "museo_slab_700webfont";
+  border-bottom: 1px solid #e6e6e6;
+  display: block;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 12px 20px;
+  text-transform: uppercase;
+}
+
+/***********Search*********/
+.header-container .header-quick-access {
+  position: absolute;
+  right: 0;
+  top: 18px;
+}
+.header-container .header-quick-access .arw-toggle-control {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #272727;
+  cursor: pointer;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  width: 30px;
+}
+.header-container .header-quick-access .mini-cart-header .total-badge {
+  background: #ff6d00 none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 14px;
+  height: 20px;
+  left: 8px;
+  line-height: 15px;
+  position: absolute;
+  top: -15px;
+  width: 20px;
+}
+.header-container .header-quick-access .arw-toggle-container .arw-toggle-content {
+  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0 !important;
+  color: #858585;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 52px;
+  width: 360px;
+}
+
+.header-container .header-quick-access .search_mini_form .search-select-cat .btn {
+  font-family: 'Museo_Slab_900';
+  background: #fff none repeat scroll 0 0;
+  border: medium none;
+  box-shadow: none;
+  color: #272727;
+  font-size: 0.833em;
+  line-height: 22px;
+  padding-left: 10px;
+}
+.header-container .header-quick-access .search_mini_form .search-select-cat .dropdown-menu a {
+  font-family: 'Museo_Slab_900';
+  font-size: 0.833em;
+  text-transform: uppercase;
+}
+
+.header-container .header-quick-access .search_mini_form .input-text {
+  background: #fff none repeat scroll 0 0;
+  border-left: 1px solid #000;
+  color: #272727;
+  float: left;
+  font-size: 0.833em;
+  text-transform: uppercase;
+  width: 270px;
+}
+.header-container .header-quick-access .search_mini_form .button {
+  background: #000 none repeat scroll 0 0 !important;
+  border: 1px solid #fff;
+  color: #fff;
+  float: left;
+  height: 42px;
+  letter-spacing: 2px;
+  line-height: 40px;
+  padding: 0;
+  width: 50px;
+}
 
 /*******Home section new-collection*******/
 .new-collection .new-collection-inner {
@@ -271,6 +389,29 @@ body {
 
 
 /******page*********/
+.arw-page-title.has-page-title {
+  background: #ffb661 none repeat scroll 0 0;
+  border-bottom: 0 solid #ebebeb;
+  border-top: 0 solid #ebebeb;
+}
+.arw-page-title .page-title h1 {
+  color: #fff;
+  font-family: "chunkfive-webfont";
+  font-size: 38px;
+  margin: 0;
+}
+.arw-page-title .page-title + .arw_breadcrumbs {
+  padding-top: 0;
+}
+.arw-page-title .arw_breadcrumbs .breadcrumbs li a,
+.arw-page-title .arw_breadcrumbs .breadcrumbs li strong {
+  color: #000;
+  font-size: 18px;
+}
+.arw-page-title .arw_breadcrumbs .breadcrumbs li strong {
+  color: #fff;
+}
+
 
 .arw-sub-title {
   font-family: "chunkfive-webfont";
@@ -298,10 +439,10 @@ body {
   content: none;
 }
 .sidebar .block .block-title {
-  font-family: 'chunkfive-webfont';
   background: #fff none repeat scroll 0 0;
   color: #000;
-  font-size: 35px;
+  font-family: "chunkfive-webfont";
+  font-size: 30px;
   text-transform: uppercase;
 }
 .sidebar .nav-accordion li.parent .expand {
@@ -330,18 +471,18 @@ body {
 }
 
 .sidebar .block-layered-nav dt {
-  font-family: 'ConduitITC-Medium';
+  font-family: 'museo_slab_500webfont';
   font-size: 24px;
   border-bottom: 0px solid #ebebeb;
   color: #000;
 }
 .sidebar .block .block-content {
-  font-family: 'ConduitITC-Medium';
+  font-family: 'museo_slab_500webfont';
   font-size: 15px;
   color: #000;
 }
 .sidebar .block-layered-nav .currently {
-  font-family: 'ConduitITC-Medium';
+  font-family: 'museo_slab_500webfont';
   font-size: 15px;
   color: #000;
 }
@@ -356,7 +497,7 @@ body {
 }
 .sidebar .block.block-nav a {
   color: #000;
-  font-family: "ConduitITC-Medium";
+  font-family: "museo_slab_500webfont";
   font-size: 15px;
   text-transform: uppercase;
 }
@@ -387,13 +528,13 @@ body {
 .sidebar .block.block-nav ul ul li a {
 
   color: #000;
-  font-family: "ConduitITC-Medium";
+  font-family: "museo_slab_500webfont";
   font-size: 13px;
   text-transform: uppercase;
 }
 .sidebar .block.block-nav ul ul ul li a {
   color: #000;
-  font-family: "ConduitITC-Medium";
+  font-family: "museo_slab_500webfont";
   font-size: 13px;
   text-transform: capitalize;
 }
@@ -402,6 +543,275 @@ body {
 .products-grid .price-box {
   font-family: "museo_slab_700webfont";
   font-size: 16px;
+}
+
+.product-view .product-essential .prev-next {
+  bottom: 150px;
+  float: right;
+  font-size: 1.5em;
+  position: absolute;
+  right: 10px;
+}
+
+
+/***********Blog*******/
+.block-blog-category ul li a {
+   font-family: 'museo_slab_500webfont';
+   font-size: 15px;
+   color: #000;
+   text-transform: uppercase;
+}
+.block-blog-category ul li.
+.blog-list .post-item h2.post-title {
+  font-family: 'museo_slab_500webfont';
+  font-size: 29px;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.title-divider-style-4, 
+.title-divider-style-3, 
+.title-divider-style-2, 
+.title-divider-style-1 {
+  border-color: #ff6d00;
+}
+
+.post-item .post-category {
+  font-family: 'museo_slab_500webfont';
+  font-size: 19px;
+  margin: 0 0 5px;
+  text-transform: uppercase;
+}
+.post-item .post-title {
+  font-family: "museo_slab_500webfont";
+  font-size: 21px;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: normal;
+  margin: 0 0 15px;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.post-item .post-excerpt {
+  font-family: 'museo_slab_500webfont';
+  font-size: 15px;
+  margin: 0 0 15px;
+}
+.post-item .post-meta {
+  font-family: 'museo_slab_500webfont';
+  border-bottom: 1px solid #ebebeb;
+  border-top: 1px solid #ebebeb;
+  font-size: 13px;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+
+.post-item .post-category a {
+  color: #ff6d00;
+}
+
+/********Category********/
+.toolbar {
+  font-size: 14px;
+  background: #fff none repeat scroll 0 0;
+  color: #000;
+}
+
+.toolbar .view-mode .list, 
+.toolbar .view-mode .grid {
+  border: 1px solid #000;
+  float: left;
+  font-size: 15px;
+  line-height: 28px;
+  margin-right: 10px;
+  text-align: center;
+  width: 30px;
+}
+
+.toolbar .btn-group.bootstrap-select {
+  font-size: 14px;
+  border: 1px solid #ebebeb;
+}
+.toolbar .btn-group.bootstrap-select .caret {
+  color: #ff6d00;
+}
+.toolbar .bootstrap-select .btn {
+  box-shadow: none;
+  font-size: 14px;
+  line-height: 28px;
+  outline: medium none !important;
+  padding: 0 10px;
+  border: none;
+}
+
+.toolbar a, .toolbar .btn {
+  background: transparent none repeat scroll 0 0;
+  color: #000;
+  font-weight: 400;
+}
+.toolbar a:hover, 
+.toolbar .btn:hover,
+.toolbar .open .btn {
+  color: #e05121;
+  border: 0px solid #ff6d00;
+}
+.toolbar .view-mode strong {
+  background: transparent none repeat scroll 0 0;
+  border-color: #ff6d00;
+  color: #ff6d00;
+}
+.toolbar .view-limiter a.selected {
+  background: transparent none repeat scroll 0 0;
+  color: #ff6d00;
+}
+
+.products-list .product-name a, 
+.products-grid .product-name a {
+  color: #000;
+  font-size: 13px;
+}
+.products-grid .price-box {
+  color: #ff6d00;
+  font-family: "museo_slab_700webfont";
+  font-size: 16px;
+}
+
+
+.products-grid .price-box .minimal-price .price, 
+.products-grid .price-box .special-price, 
+.products-grid .price-box .regular-price {
+  color: #ff6d00;
+}
+
+.products-grid .btn-cart:hover {
+  background: #ff6d00;
+  border: 1px solid #ff6d00;
+}
+.products-grid .link-actions a:hover {
+  background: #ff6d00;
+  border: 1px solid #ff6d00;
+
+}
+.products-grid .link-actions a:hover span {
+  color: #fff;
+}
+
+/*******product-detail******/
+
+.product-view .product-essential .product-name {
+  font-family: "museo_slab_700webfont";
+  font-size: 28px;
+  margin: 0 0 20px;
+}
+
+.product-view .product-essential .price-box {
+  color: #ff6d00;
+  display: inline-block;
+  font-family: "museo_slab_700webfont";
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.product-view .product-essential .price-box .special-price, 
+.product-view .product-essential .price-box .regular-price {
+  color: #ff6d00;
+}
+.product-view .product-sku {
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.product-view .product-essential .ratings {
+  font-size: 12px;
+  padding: 0.2em 0;
+}
+
+.product-view .product-essential .availability {
+   border: 1px solid #ebebeb;
+  display: inline-block;
+  font-family: "Museo_Slab_700italic";
+  font-size: 13px;
+  padding: 10px 20px;
+}
+
+.product-view .product-essential .btn-cart {
+  background-color: #ff6d00;
+  color: #fff;
+  float: left;
+  font-family: "chunkfive-webfont";
+  font-size: 17px;
+  height: 44px;
+  line-height: 42px;
+  margin-right: 10px;
+  padding: 0 20px;
+  border: 1px solid #ff6d00;
+}
+.product-view .product-essential .btn-cart:hover {
+  background: transparent;
+  color: #000;
+  border: 1px solid #000
+}
+.product-view .product-essential .short-description {
+  border-bottom: 1px solid #ebebeb;
+  border-top: 1px solid #ebebeb;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.product-view .product-essential .sharing-links li label {
+  color: #000;
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-right: 1em;
+  padding-top: 1px;
+}
+.product-view #product-options-wrapper > dl dt > label {
+  font-size: 0.917em;
+  font-weight: normal;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.product_details_tabs .product-tabs-content {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #ebebeb;
+  color: #000;
+}
+.product_details_tabs .product-tabs li a {
+  font-family: 'chunkfive-webfont';
+  font-size: 15px;
+}
+
+.product_details_tabs .product-tabs li.active a, 
+.product_details_tabs .product-tabs li:hover a {
+  background: #fff none repeat scroll 0 0;
+  color: #e05121;
+}
+
+.arw-block-related .arw-title h2 span span {
+  font-family: 'chunkfive-webfont';
+  font-size: 36px;
+}
+
+.arw-block-related .arw-sub-title {
+  color: #ff6d00;
+  font-family: "Museo_Slab_500italic";
+  font-size: 19px;
+}
+.catalog-owl-next::before, 
+.catalog-owl-prev::before, 
+.owl-next::before, 
+.owl-prev::before {
+  font-size: 30px;
+}
+
+.arw_tab_slider .owl-nav .owl-prev, 
+.arw_tab_slider .owl-nav .owl-next {
+  background: #fff none repeat scroll 0 0;
+  border: medium none;
+  color: #000;
 }
 
 /***********Footer**********/
@@ -449,3 +859,4 @@ body {
   margin: 0 15px;
   vertical-align: middle;
 }
+

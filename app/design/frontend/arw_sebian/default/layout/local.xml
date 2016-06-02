@@ -204,6 +204,7 @@
                     <value helper="sebian/data/getSliderId"/>
                 </action>
             </block>
+            <remove name="revo_slide"/>
             <block type="cms/block" name="arw_sebian_home_block_top" after="arw_layout_global_top">
                 <action method="setBlockId"><block_id>arw_sebian_home_block_top</block_id></action>
             </block>

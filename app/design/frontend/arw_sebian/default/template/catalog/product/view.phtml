@@ -76,13 +76,14 @@ $_product = $this->getProduct();
                     <div class="row">
                         <div class="product-img-box col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <?php echo $this->getChildHtml('media') ?>
+                             <?php echo $this->getChildHtml('prev_next') ?>
                         </div>
                         <div class="product-shop col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div class="product-shop-inner">
                                 <div class="product-name">
                                     <span itemprop="name"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></span>
                                 </div>
-                                <?php echo $this->getChildHtml('prev_next') ?>
+                               
                                 <?php echo $this->getChildHtml('alert_urls') ?>
                                 <div  itemprop="offers" itemscope itemtype="<?php echo $_product->getTypeId() == "bundle" ? 'http://schema.org/AggregateOffer' : 'http://schema.org/Offer'?>">
                                     <?php echo $this->getChildHtml('product_type_data') ?>

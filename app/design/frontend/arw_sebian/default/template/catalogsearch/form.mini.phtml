@@ -39,7 +39,7 @@ $rand_id = rand();
             }
             ?>
             <select class="search-select-cat" name="cat">
-                <option value="0"><?php echo $this->__('All Category')?></option>
+                <option value="0"><?php echo $this->__('All')?></option>
                 <?php echo Mage::helper('sebian')->renderOptionDropdownCategory(Mage::helper('catalog/category')->getStoreCategories(),$max_depth,0,"","&nbsp;&nbsp;&nbsp;",$currentCategorySearch);?>
             </select>
         <?php }?>
