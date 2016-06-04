@@ -119,8 +119,14 @@
         </reference>
 
         <reference name="footer">
-            <block type="cms/block" name="arw_global_footer_row">
-                <action method="setBlockId"><block_id>arw_sebian_block_footer</block_id></action>
+            <block type="cms/block" name="global_footer_top" before="-">
+                <action method="setBlockId"><block_id>global_footer_top</block_id></action>
+            </block>
+            <block type="cms/block" name="global_footer_center" after="global_footer_top">
+                <action method="setBlockId"><block_id>global_footer_center</block_id></action>
+            </block>
+            <block type="cms/block" name="global_footer_bottom" after="global_footer_center">
+                <action method="setBlockId"><block_id>golbal_footer_bottom</block_id></action>
             </block>
         </reference>
 
