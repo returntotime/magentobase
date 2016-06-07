@@ -246,7 +246,19 @@
 }
 
 
-
+/*****Sidebar********/
+.sidebar .block .block-title::after {
+  background: #272727 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  width: 35px;
+}
+.sidebar .block .block-title {
+  text-transform: uppercase;
+}
 
 .footer_top {
   padding-bottom: 40px;
