@@ -55,6 +55,19 @@
   font-style: normal;
 }
 
+
+textarea, .input-text, 
+input[type="email"], 
+input[type="search"], 
+input[type="number"], 
+input[type="password"], 
+input[type="tel"], 
+input[type="text"] {
+  background-color: #fff;
+  border: 1px solid #bae1de;
+  color: #272727;
+}
+
 .header-container.header_style_2 .header-logo {
   float: left;
   padding-top: 2px;
@@ -73,13 +86,16 @@
   border-top: 5px solid #00AEAB;
 }
 
+.header-top .arw-toggle-container {
+  text-align: center;
+}
 .header-container .header-top .form-search {
   padding-top: 25px;
 }
 
 .form-search .input-text, .form-search input[type="text"] {
   background-color: white;
-  border: 1px solid #ebebeb;
+  border: 1px solid #bae1de;
   border-radius: 0;
   color: #272727;
   max-width: 360px;
@@ -515,4 +531,31 @@
 
 .footer_bottom ul li a:hover {
   color: #ff6434;
+}
+
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .container {width: 100%}
+  .form-search .input-text, .form-search input[type="text"] {
+    max-width: 310px;
+  }
+  .megamenu > li > a { padding: 0 8px; }
+  .show_mobile { display: none; }
+  .arw-toggle-container {text-align: center; }
+  .section_after_slider .main-item .description h3 {font-size: 20px}
+  .header-container .header-top .header-top-link {padding-right: 20px; }
+  .footer_top .footer-padding-item .phone { font-size: 25px; }
+  .footer_bottom ul li a { font-size: 12px; }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .form-search .input-text, .form-search input[type="text"] { max-width: 250px; width: 100%; }
+  .header-container .header-top .header-top-right-inner { float: right; padding-top: 0; }
+  .header-container .header-quick-access { width: 45px; top: -3px; left: 0; }
+  .header-container.header_style_2 #header {  min-height: 50px; }
+  .arw-btn-menu-mobile {z-index: 99999}
+  .nav-primary-container .arw-mobile-menu { transform: translate(0px, 0px); }
+  .footer_top .footer-padding-item.bordered {  border: none; }
+  .footer_bottom ul li:after {content: none; }
 }
