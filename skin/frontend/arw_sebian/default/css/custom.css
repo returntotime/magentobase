@@ -246,19 +246,192 @@
 }
 
 
-/*****Sidebar********/
-.sidebar .block .block-title::after {
-  background: #272727 none repeat scroll 0 0;
-  bottom: 0;
+.arw-page-title.has-page-title {
+  border-bottom: 1px solid #ebebeb;
+  border-top: 0 solid #ebebeb;
+}
+
+
+/*******About Us ********/
+
+.about_block_1 h1::before,
+.about_block_1 h2::before, 
+.about_block_2 h2::before {
+  border: 4px solid #3eb1a4;
+  border-radius: 3px;
   content: "";
-  display: block;
-  height: 2px;
+  left: 15px;
   position: absolute;
-  width: 35px;
+  right: 15px;
+  top: 50%;
+}
+.about_block_1 h1,
+.about_block_1 h2, 
+.about_block_2 h2 {
+  padding: 25px 0;
+}
+.about_block_1 .title_left,
+.about_block_2 .title_left,
+.about_block_1 .title_right,
+.about_block_2 .title_right {
+  color: #ff7246;
+  font-family: "Open Sans",sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.about_block_1 h1 .title_left, 
+.about_block_2 h1 .title_left {
+  background: #fff none repeat scroll 0 0;
+  left: 15px;
+  padding-right: 15px;
+  position: absolute;
+  top: 5px;
+}
+.about_block_1 h1 .title_left,
+.about_block_2 h1 .title_left {
+  color: #ff7246;
+  font-family: "Open Sans",sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  vertical-align: middle;
+  font-size: 50px;
+}
+
+.about_block_1 .title_left, 
+.about_block_2 .title_left {
+  background: #fff none repeat scroll 0 0;
+  left: 15px;
+  padding-right: 15px;
+  position: absolute;
+  top: 35%;
+}
+.about_block_1 .title_right, 
+.about_block_2 .title_right {
+  background: #fff none repeat scroll 0 0;
+  padding-left: 15px;
+  position: absolute;
+  right: 15px;
+  top: 35%;
+}
+
+.about_block_2 .title_right {
+  background: #fff none repeat scroll 0 0;
+  padding: 0 15px;
+  position: absolute;
+  right: 35%;
+  top: 35%;
+}
+
+/*******Sidebar*********/
+.sidebar .block .block-title::after {
+  content: none;
 }
 .sidebar .block .block-title {
+  background: #fff none repeat scroll 0 0;
+  color: #00aeab;
+  font-family: "OpenSansBoldItalic";
+  font-size: 30px;
   text-transform: uppercase;
 }
+
+.sidebar .nav-accordion li.parent .expand {
+  color: #ff7246;
+}
+
+.sidebar .nav-accordion .collapse i{
+  color: #000;
+}
+
+.sidebar .nav-accordion li.parent span:hover {
+  color: #ff6d00;
+}
+
+.sidebar .noUi-horizontal .noUi-handle {
+  background: #ff7246 none repeat scroll 0 0;
+  border: 2px solid #ff7246 !important;
+  border-radius: 100%;
+  cursor: ew-resize;
+  height: 20px;
+  left: -10px;
+  position: absolute;
+  top: -10px;
+  width: 20px;
+  z-index: 2;
+}
+
+.sidebar .block-layered-nav dt {
+  font-family: 'OpenSansBoldItalic';
+  font-size: 24px;
+  border-bottom: 0px solid #ebebeb;
+  color: #000;
+}
+.sidebar .block .block-content {
+  font-family: 'OpenSansBoldItalic';
+  font-size: 15px;
+  color: #000;
+}
+.sidebar .block-layered-nav .currently {
+  font-family: 'OpenSansBoldItalic';
+  font-size: 15px;
+  color: #000;
+}
+.sidebar .block-layered-nav .currently .label,
+.sidebar .block-layered-nav .currently .value {
+  text-transform: uppercase;
+  color: #000;
+}
+
+.sidebar .block .actions a {
+  color: #ff6d00;
+}
+.sidebar .block.block-nav a {
+  color: #000;
+  font-family: "OpenSansBoldItalic";
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.sidebar .block.block-nav li:hover > a, 
+.sidebar .block.block-nav li.active > a {
+  color: #ff7246;
+}
+.sidebar .block.block-nav ul > li > a {
+   border-top: 1px solid #eaeaea;
+}
+
+.sidebar .block.block-nav ul > li.last > a {
+  border-bottom: 1px solid #eaeaea;
+}
+.sidebar .block.block-nav ul ul > li > a {
+  border-top: 1px solid #eaeaea;
+}
+
+.sidebar .block.block-nav ul ul > li.last > a,
+.sidebar .block.block-nav ul ul ul > li.last > a {
+  border-bottom: 0px solid #eaeaea;
+}
+
+.nav-accordion li.level0 + li {
+  border-top: 0px solid #ebebeb;
+}
+
+.sidebar .block.block-nav ul ul li a {
+
+  color: #000;
+  font-family: "OpenSansBoldItalic";
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.sidebar .block.block-nav ul ul ul li a {
+  color: #000;
+  font-family: "OpenSansBoldItalic";
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+
+
 
 .footer_top {
   padding-bottom: 40px;
