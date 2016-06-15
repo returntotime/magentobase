@@ -96,6 +96,21 @@ body {
   z-index: 99;
 }
 
+/*********Menu*******/
+
+.megamenu > li > a {
+  background: transparent none repeat scroll 0 0;
+  color: #545454;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.megamenu > li > a > span {
+  font-size: 12px;
+}
+
+
+
 /*****Footer********/
 .footer-container .inner_boxs {
 	text-align: center;
