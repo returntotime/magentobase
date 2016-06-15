@@ -89,7 +89,7 @@
             <action method="addCss"><stylesheet helper="sebian/cssgen/getDesignFile"/></action>
             <!-- Custom CSS (has to be enabled in admin) -->
             <action method="addCss" ifconfig="sebian/customization/custom_css"><stylesheet>css/custom.css</stylesheet></action>
-			<action method="addCss"><stylesheet>css/oakland.custom.css</stylesheet></action>
+
         </reference>
         <reference name="header">
             <block type="directory/currency" name="store_currency" template="directory/top-currency.phtml"/>
@@ -126,8 +126,8 @@
         </reference>
 
         <reference name="footer">
-            <block type="cms/block" name="arw_global_footer_row">
-                <action method="setBlockId"><block_id>arw_sebian_block_footer</block_id></action>
+            <block type="cms/block" name="march_global_footer_bottom">
+                <action method="setBlockId"><block_id>march_global_footer_bottom</block_id></action>
             </block>
         </reference>
 

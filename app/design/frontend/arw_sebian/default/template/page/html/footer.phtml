@@ -25,7 +25,27 @@
  */
 ?>
 <footer class="footer-container">
-    <?php echo $this->getChildHtml('arw_global_footer_row') ?>
+    <div class="section_footer_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="inner_boxs">
+                        <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_links_company')->toHtml(); ?>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="inner_boxs">
+                     <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('march_sf_link_about')->toHtml(); ?>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="inner_boxs">
+                        <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('sign_up_for_march_news')->toHtml(); ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="footer-copyright">
         <div class="container">
             <div class="row">

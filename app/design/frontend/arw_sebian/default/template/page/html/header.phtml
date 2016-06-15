@@ -65,15 +65,14 @@ if($cfg_enable_popup == 'home'){
     <div class="header-top">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-5 col-lg-5">
 					<?php //echo $store_language;?>
-					<?php echo $this->getChildHtml('header_text');?>
-                </div>
-                <div class="col-sm-6 col-md-2 col-lg-2">
-                    <?php echo $this->getChildHtml('header_phone');?>
-                </div>
-                <div class="header-top-right col-sm-6 col-md-5 col-lg-5">
+					<?php //echo $this->getChildHtml('header_text');?>
+                    <?php //echo $this->getChildHtml('header_phone');?>
+                <div class="header-top-right col-sm-12 col-md-12 col-lg-12">
                     <div class="header-top-right-inner">
+                        <div class="header-social">
+                            <?php echo $this->getChildHtml('header_social');?>
+                        </div>
                         <div class="header-top-link">
                             <ul class="header-top-link-ul">
                                 <li>
@@ -85,10 +84,36 @@ if($cfg_enable_popup == 'home'){
                                 <?php endif;?>
                             </ul>
                         </div>
-                        <div class="header-social">
-                            <?php echo $this->getChildHtml('header_social');?>
-                        </div>
+                        
+                        <div class="header-quick-access">
+                        <?php if($mini_ajaxcart_icon):?>
+                                <div class="header-mini-cart arw-toggle-container">
+                                    <div class="mini-cart-header arw-mini-cart-header arw-toggle-control">
+                                        <span class="fa fa-shopping-cart"></span>
+                                        <span class="total-badge"><?php echo ($total_item_cart = Mage::getSingleton('checkout/cart')->getItemsCount()) ? $total_item_cart : 0?></span>
+                                    </div>
+                                    <div id="arw_mini_cart_header" class="arw-toggle-content">
+                                        <?php echo $this->getChildHtml('topCart') ?>
+                                    </div>
+                                </div>
+                            <?php endif?>
+                            <?php if($mini_compare_icon):?>
+                            <div class="header-mini-cart arw-toggle-container">
+                                <div class="mini-cart-header arw-toggle-control">
+                                    <span class="fa fa-retweet"></span>
+                                    <span class="total-badge"><?php
+                                        $product_compare_count = $this->helper('catalog/product_compare')->getItemCount();
+                                        if($product_compare_count > 0){ echo $product_compare_count; }else{ echo '0'; } ?></span>
+                                </div>
+                                <div class="arw-toggle-content">
+                                    <?php echo $this->getChildHtml('header.top.compare');?>
+                                </div>
+                            </div>
+                            <?php endif;?>
+
                     </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -96,19 +121,33 @@ if($cfg_enable_popup == 'home'){
     <div id="header">
         <div class="container">
             <div class="header-wrapper">
-                <div class="header-logo">
-                    <?php
-                        $logo_src = $this->getLogoSrc();
-	                    if($float_header){
-		                    $logo_src = $this->getLogoSrcSmall();
-	                    }
-                    ?>
-                    <?php if ($this->getIsHomePage()):?>
-                        <h1 class="logo"><strong class="no-display"><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $logo_src ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
-                    <?php else:?>
-                        <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><strong class="no-display"><?php echo $this->getLogoAlt() ?></strong><img src="<?php echo $logo_src ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
-                    <?php endif?>
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-4 col-sm-offset-4 col-md-offset-4 col-lg-offset-4">
+                    <div class="header-logo">
+                        <?php
+                            $logo_src = $this->getLogoSrc();
+    	                    if($float_header){
+    		                    $logo_src = $this->getLogoSrcSmall();
+    	                    }
+                        ?>
+                        <?php if ($this->getIsHomePage()):?>
+                            <h1 class="logo"><strong class="no-display"><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $logo_src ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
+                        <?php else:?>
+                            <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><strong class="no-display"><?php echo $this->getLogoAlt() ?></strong><img src="<?php echo $logo_src ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
+                        <?php endif?>
+                    </div>
                 </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <?php if($show_icon_search):?>
+                        <div class="arw-toggle-container">
+                            <div class="arw-toggle-content <?php echo $show_search_by_cat ? 'has_cat_search' : 'not_cat_search';?>">
+                                <?php echo $this->getChildHtml('topSearch') ?>
+                            </div>
+                        </div>
+                    <?php endif;?>        
+                </div>
+            </div>
+            </div>
                 <nav class="nav-primary-container clearfix">
                     <div class="wrap-nav">
                         <div class="arw-toggle-menu-mobile visible-xs">
@@ -121,42 +160,7 @@ if($cfg_enable_popup == 'home'){
                             <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
                         </div>
                         <?php echo $this->getChildHtml('topMenu') ?>
-                        <div class="header-quick-access">
-                            <?php if($mini_ajaxcart_icon):?>
-                                <div class="header-mini-cart arw-toggle-container">
-                                    <div class="mini-cart-header arw-mini-cart-header arw-toggle-control">
-                                        <span class="fa fa-shopping-cart"></span>
-                                        <span class="total-badge"><?php echo ($total_item_cart = Mage::getSingleton('checkout/cart')->getItemsCount()) ? $total_item_cart : 0?></span>
-                                    </div>
-                                    <div id="arw_mini_cart_header" class="arw-toggle-content">
-                                        <?php echo $this->getChildHtml('topCart') ?>
-                                    </div>
-                                </div>
-                            <?php endif?>
-	                        <?php if($mini_compare_icon):?>
-	                        <div class="header-mini-cart arw-toggle-container">
-		                        <div class="mini-cart-header arw-toggle-control">
-			                        <span class="fa fa-retweet"></span>
-			                        <span class="total-badge"><?php
-				                        $product_compare_count = $this->helper('catalog/product_compare')->getItemCount();
-				                        if($product_compare_count > 0){ echo $product_compare_count; }else{ echo '0'; } ?></span>
-		                        </div>
-		                        <div class="arw-toggle-content">
-			                        <?php echo $this->getChildHtml('header.top.compare');?>
-		                        </div>
-	                        </div>
-							<?php endif;?>
-                            <?php if($show_icon_search):?>
-                                <div class="arw-toggle-container">
-                                    <div class="arw-toggle-control">
-                                        <span class="fa fa-search"></span>
-                                    </div>
-                                    <div class="arw-toggle-content <?php echo $show_search_by_cat ? 'has_cat_search' : 'not_cat_search';?>">
-                                        <?php echo $this->getChildHtml('topSearch') ?>
-                                    </div>
-                                </div>
-                            <?php endif;?>
-                        </div>
+                      
                         <?php if($mobile_menu_style == 'accordion'):?>
                             <?php echo $this->getChildHtml('topMenuMobile')?>
                         <?php endif;?>

@@ -1269,3 +1269,20 @@ if(typeof ARWFilter != 'undefined'){
     };
     ARWFilter.prototype = oldARWFilter.prototype;
 };
+
+
+
+    jQuery(document).ready(function($){
+        $('.inner_boxs ul, .inner_boxs .block-subscribe').css('display','none');
+
+        $('.inner_boxs h2, .inner_boxs h2 span').click(function(){
+            var on = $(this).children('.chevron').hasClass('chevron_down');
+            if(on){
+                $(this).children('.chevron').removeClass('chevron_down');
+
+            } else {
+                $(this).children('.chevron').addClass('chevron_down');
+            }
+            $(this).next().toggle('slow');
+        });
+    });
