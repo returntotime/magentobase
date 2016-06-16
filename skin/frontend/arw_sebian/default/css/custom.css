@@ -45,21 +45,27 @@ body {
 }
 
 .form-search .input-text {
-	float: left;
-	max-width: 300px;
-	width: 100%;
+  float: left;
+  height: 35px;
+  max-width: 245px;
+  width: 100%;
 }
 .form-search .button {
-  padding: 0;
+  height: 35px;
   margin: 0;
+  padding: 0;
   width: 45px;
-  height: 42px;
 }
 .header-container.header_style_1 .header-logo .logo {
+  display: block;
   line-height: normal;
   margin: 0;
+  padding-bottom: 20px;
   padding-top: 20px;
-  padding-bottom: 10px;
+}
+
+.header-container .header-top .header-top-link {
+  border-right: 0 solid #ebebeb;
 }
 
 .header-container .header-top .header-top-link .header-top-link-ul > li > span {
@@ -69,15 +75,14 @@ body {
 }
 
 .header-container .header-top .header-top-link ul.links li a {
-  font-family: 'AlrightSans-Light';
-  background: transparent none repeat scroll 0 0;
-  color: #545454;
+  background: #545454 none repeat scroll 0 0;
+  color: #ffffff;
+  font-family: "AlrightSans-Light";
   font-size: 14px;
 }
 .header-container .header-top .header-top-link ul.links li.active > a,
 .header-container .header-top .header-top-link ul.links li:hover > a{
   color:#a5a5a5;
-  background:transparent;
 }
 
 .header-container .header-quick-access {
@@ -99,6 +104,7 @@ body {
 /*********Menu*******/
 
 .megamenu > li > a {
+  font-family: 'EngraversGothicBT-Regular';
   background: transparent none repeat scroll 0 0;
   color: #545454;
   font-size: 14px;
@@ -106,12 +112,152 @@ body {
 }
 
 .megamenu > li > a > span {
-  font-size: 12px;
+  font-family: "EngraversGothicBT-Regular";
+  font-size: 14px;
+}
+.megamenu .arwmenu-block ul .groups .title-group {
+  font-family: 'EngraversGothicBT-Regular';
+  color: #fff;
+}
+
+.megamenu .arwmenu-block .groups .groups-wrapper ul li a {
+  font-family: 'EngraversGothicBT-Regular';
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+
+/*******Page**********/
+.arw-page-title .page-title h1, 
+.arw-page-title .page-title h2 {
+  font-size: 23px;
+  font-weight: normal;
+  letter-spacing: 4px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/*******About-us*****/
+
+.cms-about-us .about_slider {
+   width: 100%;
+}
+.cms-about-us .about_slider img {
+	max-width: 100%;
+}
+.cms-about-us .inner_content {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.cms-about-us .inner_content .intro {
+	font-family: 'EngraversGothicBT-Regular';
+	font-size: 19px;
+	color: #545454;
+    padding: 65px 0;
+}
+.cms-about-us .inner_content .address, 
+.cms-about-us .inner_content .hours {
+	font-family: 'EngraversGothicBT-Regular';
+  font-size: 14px;
+  padding-top: 15px;
+  text-transform: uppercase;
+}
+.cms-about-us .inner_content .address h2, 
+.cms-about-us .inner_content .hours h2{
+	font-size: 19px;
+}
+
+.cms-about-us .inner_content .address p, 
+.cms-about-us .inner_content .hours p {
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+
+/******Contact********/
+.page_contact_style_1, .main-container {
+	font-family: 'EngraversGothicBT-Regular';
+	color: #545454;
+}
+
+
+
+/*********Category*************/
+.products-grid .actions .button {
+  font-size: 1.167em;
+  font-weight: normal;
+  line-height: 1em;
+  padding: 0.5em;
+  position: relative;
+  text-align: center;
+  z-index: 3;
+}
+
+.products-grid .link-actions {
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  transform: translateY(-135%);
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  visibility: hidden;
+  width: 100%;
+  z-index: 3;
+}
+
+.products-grid .actions .btn-cart {
+  font-size: 0.833em;
+  left: 50%;
+  line-height: 34px;
+  margin-top: 25px;
+  opacity: 0;
+  padding: 0 20px;
+  position: absolute;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  visibility: hidden;
+  white-space: pre;
+  z-index: 2;
+}
+.products-grid .actions .ratings {
+  display: block;
+  font-size: 0.833em;
+  left: 50%;
+  margin-top: 70px;
+  opacity: 0;
+  position: absolute;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  visibility: hidden;
+  z-index: 3;
+}
+
+/*********Product Detail******/
+.products-list .product-name a, .products-grid .product-name a {
+	font-family: 'EngraversGothicBT-Regular';
+	font-size: 16px;
+    color: #545454;
+}
+.products-grid .price-box,
+.products-grid .price-box .price {
+  font-family: 'EngraversGothicBT-Regular';
+  font-size: 15px;
+  margin: 15px 0;
 }
 
 
 
 /*****Footer********/
+.footer-container {
+  background: transparent none repeat scroll 0 0;
+  color: #545454;
+  padding-top: 0;
+}
 .footer-container .inner_boxs {
 	text-align: center;
 }
@@ -143,8 +289,19 @@ body {
 .footer-container .inner_boxs .form-subscribe-header {
 	display: none
 }
+.footer-container .inner_boxs .block-subscribe {
+	margin-bottom: 0;
+}
 .footer-container .inner_boxs .block-subscribe .input-text {
   height: 30px !important;
+}
+.footer-container .inner_boxs .block-subscribe .actions {
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.footer-container .block.block-subscribe .block-content {
+  padding: 0;
+  margin-bottom: 0
 }
 
 .footer-container .inner_boxs .block-subscribe .actions .button {

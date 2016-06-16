@@ -169,14 +169,14 @@ border-color:transparent;
 }
 
 .header-container .header-quick-access .arw-toggle-container.active .arw-toggle-control,.header-container .header-quick-access .arw-toggle-container:hover .arw-toggle-control{
-background:none;
+  background:none;
 }
 
 .header-container .header-quick-access .search_mini_form .button{
-background:#e05121;
+  background:#e05121;
 }
 .header-container .header-quick-access .search_mini_form .button:hover{
-background:#e05121;
+  background:#e05121;
 }
 
 /********Home-section-1*******/

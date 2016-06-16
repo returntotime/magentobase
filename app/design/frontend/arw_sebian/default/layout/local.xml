@@ -202,20 +202,22 @@
 
     <catalog_category_default>
         <reference name="root">
-            <action method="setTemplate"><template>page/2columns-left.phtml</template></action>
+            <action method="setTemplate"><template>page/1column.phtml</template></action>
         </reference>
         <reference name="left">
             <action method="unsetChild"><alias>currency</alias></action>
         </reference>
+         <remove name="left" />
     </catalog_category_default>
 
     <catalog_category_layered>
         <reference name="root">
-            <action method="setTemplate"><template>page/2columns-left.phtml</template></action>
+            <action method="setTemplate"><template>page/1column.phtml</template></action>
         </reference>
         <reference name="left">
             <action method="unsetChild"><alias>currency</alias></action>
         </reference>
+        <remove name="left" />
     </catalog_category_layered>
 
     <catalogsearch_result_index>
