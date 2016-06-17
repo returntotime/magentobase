@@ -84,16 +84,7 @@ $_product = $this->getProduct();
                                 </div>
                                 <?php echo $this->getChildHtml('prev_next') ?>
                                 <?php echo $this->getChildHtml('alert_urls') ?>
-                                <div  itemprop="offers" itemscope itemtype="<?php echo $_product->getTypeId() == "bundle" ? 'http://schema.org/AggregateOffer' : 'http://schema.org/Offer'?>">
-                                    <?php echo $this->getChildHtml('product_type_data') ?>
-                                    <meta itemprop="priceCurrency" content="<?php echo $currency_code = Mage::app()->getStore()->getCurrentCurrencyCode(); ?>"/>
-                                    <?php if ($_product->isAvailable()): ?>
-                                        <meta itemprop="availability" href="http://schema.org/InStock"/>
-                                    <?php else:?>
-                                        <meta itemprop="availability" href="http://schema.org/OutOfStock"/>
-                                    <?php endif;?>
-                                    <?php echo $this->getTierPriceHtml() ?>
-                                </div>
+                        
                                 <p class="product-sku"><span><?php echo $this->__("Product code:")?></span><span itemprop="sku"><?php echo $_product->getSku();?></span></p>
                                 <div class="clearfix product-wrap-1">
                                     <?php if ($_product->isAvailable()): ?>
@@ -114,6 +105,18 @@ $_product = $this->getProduct();
                                         <div class="std" itemprop="description"><?php echo $_helper->productAttribute($_product, nl2br($_product->getShortDescription()), 'short_description') ?></div>
                                     </div>
                                 <?php endif;?>
+
+                                <div  itemprop="offers" itemscope itemtype="<?php echo $_product->getTypeId() == "bundle" ? 'http://schema.org/AggregateOffer' : 'http://schema.org/Offer'?>">
+                                    <?php echo $this->getChildHtml('product_type_data') ?>
+                                    <meta itemprop="priceCurrency" content="<?php echo $currency_code = Mage::app()->getStore()->getCurrentCurrencyCode(); ?>"/>
+                                    <?php if ($_product->isAvailable()): ?>
+                                        <meta itemprop="availability" href="http://schema.org/InStock"/>
+                                    <?php else:?>
+                                        <meta itemprop="availability" href="http://schema.org/OutOfStock"/>
+                                    <?php endif;?>
+                                     <?php echo $this->getTierPriceHtml() ?>
+                                </div>
+
                                 <?php if (!$this->hasOptions()):?>
                                     <div class="add-to-box clearfix">
                                         <?php if($_product->isSaleable()): ?>

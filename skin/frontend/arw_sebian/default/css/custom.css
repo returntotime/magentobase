@@ -24,6 +24,13 @@
   font-style: normal;
 }
 
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  color: #545454;
+  font-family: 'EngraversGothicBT-Regular';
+}
+
+
+
 body {
 	font-family: 'AlrightSans-Light';
 	font-size: 14px;
@@ -127,7 +134,10 @@ body {
   text-transform: uppercase;
 }
 
-
+.active-sticky .megamenu > li > a, 
+.active-sticky .megamenu > li > a > span {
+	font-size: 12px;
+}
 
 /*******Page**********/
 .arw-page-title .page-title h1, 
@@ -174,6 +184,33 @@ body {
 .cms-about-us .inner_content .hours p {
   line-height: normal;
   margin-bottom: 5px;
+}
+
+
+/******Suppers*********/
+.cms-suppers .supper_slider {
+   width: 100%;
+}
+.cms-suppers .supper_slider img {
+	max-width: 100%;
+}
+.cms-suppers .inner_content {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.cms-suppers .inner_content .intro {
+	font-family: 'EngraversGothicBT-Regular';
+	font-size: 19px;
+	color: #545454;
+    padding: 65px 0;
+}
+.cms-suppers .inner_content .address, 
+.cms-suppers .inner_content .hours {
+	font-family: 'EngraversGothicBT-Regular';
+  font-size: 14px;
+  padding-top: 15px;
+  text-transform: uppercase;
 }
 
 
@@ -238,10 +275,55 @@ body {
 }
 
 /*********Product Detail******/
+
+
 .products-list .product-name a, .products-grid .product-name a {
 	font-family: 'EngraversGothicBT-Regular';
 	font-size: 16px;
     color: #545454;
+}
+
+.product-view .product-img-box-bottom .more-views .slick-slider {
+  margin: 15px 0;
+}
+
+.more-views .slick-slider .thumbnail-item a {
+  display: block;
+  margin-right: 20px;
+  opacity: 0.3;
+  padding: 0;
+}
+
+.product-view .product-essential .product-name {
+  color: #545454;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.product-view .product-essential .prev-next {
+  display: none;
+  float: right;
+  font-size: 1.5em;
+}
+.product-view .product-essential .arw-box-quantity {
+  float: none;
+  margin-bottom: 25px;
+  margin-right: 0;
+}
+.product-view .product-essential .arw-box-quantity label {
+  color: #545454;
+  float: left;
+  font-size: 15px;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+.product-view .product-essential .arw-box-quantity .input-text {
+  border: 1px solid #bcbdbc;
+  color: #545454;
+  height: 30px;
+  line-height: 30px;
+  width: 44px;
 }
 .products-grid .price-box,
 .products-grid .price-box .price {
@@ -250,6 +332,53 @@ body {
   margin: 15px 0;
 }
 
+.product-view .product-essential .arw-box-quantity {
+  float: none;
+  margin-bottom: 20px;
+  margin-right: 0;
+  margin-top: 20px;
+}
+
+.product-view .product-essential .action_registry_block {
+  display: block;
+  overflow: hidden;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.product-view .product-essential .add-to-box-actions .button {
+  font-size: 13px;
+  line-height: 30px;
+  padding: 0 2em;
+  text-align: center;
+  width: 197px;
+}
+.product-view .product-essential .add-to-box-actions .button.btn-cart {
+	background: #555;
+	color: #fff;
+}
+.product-view .product-essential .add-to-box-actions .button.btn-cart:hover {
+	background: #fff;
+	color: #545454;
+}
+
+.product-view .product-essential .add-to-box-actions .button .fa,
+.product-view .product-essential .add-to-box-actions .button.link-compare {
+	display: none;
+}
+
+
+.product-view .product-essential .add-to-box-actions .link-compare .text, .product-view .product-essential .add-to-box-actions .link-wishlist .text {
+  display: block;
+}
+
+
+.product-view .product-essential .sharing-links li label {
+  display: none;
+  margin-bottom: 0;
+  margin-right: 1em;
+  padding-top: 1px;
+}
 
 
 /*****Footer********/

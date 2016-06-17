@@ -29,6 +29,7 @@
 <?php if($_product->isSaleable()): ?>
     <?php if(!$_product->isGrouped()): ?>
         <div class="arw-box-quantity">
+            <label>Qty :</label>
             <div class="wrap">
                 <button class="qty-minus btn2" type="button"><i class="fa fa-minus"></i></button>
                 <input type="text" pattern="\d*" name="qty" id="qty" maxlength="12" value="<?php echo max($this->getProductDefaultQty() * 1, 1) ?>" title="<?php echo $this->__('Qty') ?>" class="input-text qty" />
@@ -37,7 +38,9 @@
         </div>
     <?php endif; ?>
     <div class="add-to-box-actions"><!-- ./ start add-to-box-actions-->
-    <button type="button" title="<?php echo $buttonTitle ?>" id="product-addtocart-button" class="button btn-cart" onclick="productAddToCartForm.submit(this)"><span><span class="text"><?php echo $buttonTitle ?></span></span></button>
+        <div class="action_cart_block">
+             <button type="button" title="<?php echo $buttonTitle ?>" id="product-addtocart-button" class="button btn-cart" onclick="productAddToCartForm.submit(this)"><span><span class="text"><?php echo $buttonTitle ?></span></span></button>
+        </div>
     <?php echo $this->getChildHtml('', true, true) ?>
 <?php else:?>
     <div class="add-to-box-actions"><!-- ./ start add-to-box-actions-->
