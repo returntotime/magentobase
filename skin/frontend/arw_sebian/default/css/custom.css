@@ -434,6 +434,98 @@ body {
 }
 
 
+/*****Formsizechart1******/
+.sizechart1 {
+  font-family: 'Museo_Slab_900';
+}
+.sizechart1 .heading h3 {
+  background: #2B2E34;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.sizechart1 .heading h3 .before_bg {
+
+  background: #00bae0 none repeat scroll 0 0;
+  float: left;
+  height: 38px;
+  margin-right: 15px;
+  width: 40px;
+}
+
+.sizechart1 .heading .field-group label {
+  color: #F22A15
+}
+
+
+.sizechart1 .field-group {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.sizechart1 .field-group label {
+  float: left;
+  width: 100px;
+}
+.sizechart1 .field-group input {
+  width: 80%;
+}
+
+.sizechart1 .field-group .width150 {
+  width: 150px;
+}
+.sizechart1 .field-group .width100 {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+}
+
+.width200 {
+  width: 200px !important;
+}
+.sizechart1 h4 {
+  font-family: 'museo_slab_700webfont';
+  font-size: 18px;
+}
+
+.field-group > input[type="checkbox"] {
+  width: 30px;
+}
+.addition_measure .field-group label {
+  width: 150px;
+  color: #F22A15;
+}
+.addition_measure .field-group label .fa-star::before {
+  color: #f22a15;
+  content: "";
+  font-size: 25px;
+}
+
+.field-group > span .fa-star::before {
+    color: #f22a15;
+  content: "";
+  font-size: 20px;
+}
+.addition_measure .field-group.color_normal label {
+  color: #545454;
+}  
+
+.field-group.color_normal input[type="checkbox"] {
+  width: 30px;
+}
+.boxs_border {
+  border: 2px solid #2b2e34;
+  padding: 10px;
+  position: relative;
+}
+
+.img_right {
+  position: absolute;
+  right: 0;
+  top: 38%;
+  width: 45%;
+  z-index: 999;
+}
+
 /*******Sidebar*********/
 .sidebar .block .block-title::after {
   content: none;
