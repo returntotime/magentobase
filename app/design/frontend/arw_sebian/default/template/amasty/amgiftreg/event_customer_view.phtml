@@ -1,0 +1,91 @@
+<?php
+/**
+ * @author Amasty Team
+ * @copyright Copyright (c) 2015 Amasty (https://www.amasty.com)
+ * @package Amasty_Giftregistry
+ */
+?>
+<?php /* @var $this Amasty_Giftregistry_Block_View */?>
+
+<?php $_event = $this->getEvent(); ?>
+<?php $baseurl = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB); ?>
+<div class="section1_even_view">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3 col-md-3">
+				<div class="even_view_img">
+					<?php
+					$image = $_event->getImage();
+					if($image) {
+						$image = "<td class='gift-event-image-container'><img src='{$image}'></td>";
+					}
+					echo $image;
+					?>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-6">
+				<div class="even_view_content">
+					<h3><?php echo $_event->getEventTitle() ?></h3>
+					
+					<?php if($_event->getEventHosts()):?>
+						<p>
+							<b><?php echo $this->__('Event hosts');?></b><br>
+							<?php echo nl2br($this->escapeHtml($_event->getEventHosts()))?>
+						</p>
+					<?php endif; ?>
+					<?php if($_event->getEventDate() || $_event->getEventTime()):?>
+						<p>
+							<b><?php echo $this->__('Event Date and Time');?></b><br>
+							<?php if($_event->getEventDate()) echo strftime('%b %d, %Y', strtotime($_event->getEventDate()))?>
+							<?php if($_event->getEventDate() && $_event->getEventTime()) echo "<br>";?>
+							<?php if($_event->getEventTime()) echo strftime('%H:%M', strtotime($_event->getEventTime()))?>
+						</p>
+					<?php endif; ?>
+					<?php if($_event->getEventLocation()):?>
+						<p>
+							<b><?php echo $this->__('Event location');?></b><br>
+							<?php echo nl2br($this->escapeHtml($_event->getEventLocation())); ?>
+						</p>
+					<?php endif; ?>
+					<?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
+					<?php if($_event->getAdditionalInformation()):?>
+						<p>
+							<b><?php echo $this->__('Additional Information');?></b><br>
+							<?php echo $this->escapeHtml($_event->getAdditionalInformation())?>
+						</p>
+					<?php endif; ?>
+				</div>
+			</div>
+			<div class="col-sm-3 col-md-3">
+				<?php
+				$listLinks = array(
+					'view' => array('link'=>$this->getUrl("*/*/view", array('id' => $_event->getId())), 'title'=>$this->__('Requested Gifts')),
+					'received' => array('link'=>$this->getUrl("*/*/received", array('id' => $_event->getId())), 'title'=>$this->__('Received Gifts')),
+					'share' => array('link'=>$this->getUrl("*/*/share", array('id' => $_event->getId())), 'title'=>$this->__('Share Registry')),
+				);
+				?>
+				<h3 class="title">H|G conventional <br> registry</h3>
+				<ul class="even_view_links">
+					<?php /*foreach($listLinks as $key=>$link):?>
+						<?php if($this->getActionName() == $key): ?>
+							<b><?php echo $link['title']?></b>
+						<?php else: ?>
+							<li><a href="<?php echo $link['link']?>"><?php echo $link['title']?></a></li>
+						<?php endif;?>
+						<?php if($key != 'share'): ?>
+							|
+						<?php endif; ?>
+					<?php endforeach; */?>
+					<li><a href="<?php echo $baseurl; ?>">preview</a></li>
+					<li><a href="<?php echo $this->getUrl('*/*/edit', array('id'=>$_event->getId()));?>">Edit Profile</a></li>
+					<li><a href="<?php echo $baseurl; ?>registry-faq/">Registry</a></li>
+				</ul>
+
+					<?php /*if($_event->getEventDate()):?>
+						(<?php echo strftime('%b %d, %Y', strtotime($_event->getEventDate()))?>)
+					<?php endif;?>
+					<?php echo $this->__('Edit')*/?>
+			</div>
+		</div>
+	</div>
+</div>
