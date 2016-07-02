@@ -65,10 +65,16 @@ if($cfg_enable_popup == 'home'){
     <div class="header-top">
         <div class="container">
             <div class="row">
-                <div class="header-top-left col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                    <?php echo $store_language;?>
+                <div class="col-sm-12 col-md-5 col-lg-5">
+                    <div class="header_text">
+                        <?php //echo $store_language;?>
+                        <?php echo $this->getChildHtml('header_text');?>
+                    </div>
                 </div>
-                <div class="header-top-right col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                 <div class="col-sm-6 col-md-2 col-lg-2">
+                    <span class="phone"><?php echo $this->getChildHtml('header_phone');?></span>
+                </div>
+                <div class="header-top-right col-sm-6 col-md-5 col-lg-5">
                     <div class="header-top-right-inner">
                         <div class="header-top-link">
                             <ul class="header-top-link-ul">
@@ -95,9 +101,9 @@ if($cfg_enable_popup == 'home'){
                 <div class="header-logo">
                     <?php
                         $logo_src = $this->getLogoSrc();
-	                    if($float_header){
-		                    $logo_src = $this->getLogoSrcSmall();
-	                    }
+                        if($float_header){
+                            $logo_src = $this->getLogoSrcSmall();
+                        }
                     ?>
                     <?php if ($this->getIsHomePage()):?>
                         <h1 class="logo"><strong class="no-display"><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $logo_src ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
@@ -129,19 +135,19 @@ if($cfg_enable_popup == 'home'){
                                     </div>
                                 </div>
                             <?php endif?>
-	                        <?php if($mini_compare_icon):?>
-	                        <div class="header-mini-cart arw-toggle-container">
-		                        <div class="mini-cart-header arw-toggle-control">
-			                        <span class="fa fa-retweet"></span>
-			                        <span class="total-badge"><?php
-				                        $product_compare_count = $this->helper('catalog/product_compare')->getItemCount();
-				                        if($product_compare_count > 0){ echo $product_compare_count; }else{ echo '0'; } ?></span>
-		                        </div>
-		                        <div class="arw-toggle-content">
-			                        <?php echo $this->getChildHtml('header.top.compare');?>
-		                        </div>
-	                        </div>
-							<?php endif;?>
+                            <?php if($mini_compare_icon):?>
+                            <div class="header-mini-cart arw-toggle-container">
+                                <div class="mini-cart-header arw-toggle-control">
+                                    <span class="fa fa-retweet"></span>
+                                    <span class="total-badge"><?php
+                                        $product_compare_count = $this->helper('catalog/product_compare')->getItemCount();
+                                        if($product_compare_count > 0){ echo $product_compare_count; }else{ echo '0'; } ?></span>
+                                </div>
+                                <div class="arw-toggle-content">
+                                    <?php echo $this->getChildHtml('header.top.compare');?>
+                                </div>
+                            </div>
+                            <?php endif;?>
                             <?php if($show_icon_search):?>
                                 <div class="arw-toggle-container">
                                     <div class="arw-toggle-control">

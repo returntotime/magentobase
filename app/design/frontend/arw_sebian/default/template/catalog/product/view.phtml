@@ -82,8 +82,8 @@ $_product = $this->getProduct();
                                 <div class="product-name">
                                     <span itemprop="name"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></span>
                                 </div>
-                                <?php echo $this->getChildHtml('prev_next') ?>
-                                <?php echo $this->getChildHtml('alert_urls') ?>
+                                <?php //echo $this->getChildHtml('prev_next') ?>
+                                <?php //echo $this->getChildHtml('alert_urls') ?>
                                 <div  itemprop="offers" itemscope itemtype="<?php echo $_product->getTypeId() == "bundle" ? 'http://schema.org/AggregateOffer' : 'http://schema.org/Offer'?>">
                                     <?php echo $this->getChildHtml('product_type_data') ?>
                                     <meta itemprop="priceCurrency" content="<?php echo $currency_code = Mage::app()->getStore()->getCurrentCurrencyCode(); ?>"/>
@@ -94,7 +94,7 @@ $_product = $this->getProduct();
                                     <?php endif;?>
                                     <?php echo $this->getTierPriceHtml() ?>
                                 </div>
-                                <p class="product-sku"><span><?php echo $this->__("Product code:")?></span><span itemprop="sku"><?php echo $_product->getSku();?></span></p>
+                                <p class="product-sku"><span><?php echo $this->__("Product code:")?></span><span class="sku" itemprop="sku"><?php echo $_product->getSku();?></span></p>
                                 <div class="clearfix product-wrap-1">
                                     <?php if ($_product->isAvailable()): ?>
                                         <p class="availability in-stock"><span><?php echo $this->__('In stock') ?></span></p>

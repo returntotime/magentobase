@@ -1,6 +1,14 @@
 <?php
 $theme_helper = Mage::helper('sebian');
 ?>
+<form id="form_search_blog" method="get" action="">
+    <div class="input-box">
+        <input id="search" type="search" name="q" value="" class="input-text required-entry" maxlength="128" placeholder="Search Blog" autocomplete="off">
+        <button type="submit" title="Search" class="search_blog"><span class="fa fa-search"></span></button>
+    </div>
+</form>
+
+
 
 <?php if ($this->getCategories()->count() && Mage::getStoreConfig('blog/menu/category')): ?>
     <div class="block block-blog block-blog-category block-layered-nav">
@@ -21,7 +29,7 @@ $theme_helper = Mage::helper('sebian');
 <?php if ($posts = $this->getRecent()): ?>
     <div class="block block-blog block-recent-post">
         <div class="block-title">
-            <strong><span><?php echo Mage::helper('blog')->__('Recent Posts'); ?></span></strong>
+            <strong><span><?php echo Mage::helper('blog')->__('LATEST POSTS'); ?></span></strong>
         </div>
         <div class="block-content">
             <ul>
