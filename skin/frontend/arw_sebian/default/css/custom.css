@@ -930,6 +930,10 @@ input[type="radio"]:checked + label::before {
   font-size: 15px;
   text-transform: uppercase;
 }
+.footer-container .block .block-content a:hover, 
+.footer-container .block.block-custom-link a:hover {
+	color: #f4cebe;
+}
 .footer-container .block .block-content p {
 	font-family: 'josefin_sansregular';
 	font-size: 16px;
