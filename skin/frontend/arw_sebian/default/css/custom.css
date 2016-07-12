@@ -195,13 +195,33 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .header-container.header_style_1 .header-logo .logo {
   line-height: normal;
   margin: 0;
-  padding: 0;
+  padding: 0 !important;
+}
+.header-container.header_style_1 .header-logo {
+  float: left;
+  padding: 50px 0;
+  position: relative;
+  text-align: center;
+  width: 152px;
+  z-index: 9;
+}
+.header-container.active-sticky .header-logo {
+	display: none !important
+}
+/*********menu********/
+.header-container .header-wrapper .wrap-nav {
+  margin-top: 105px;
 }
 
-.header-container.header_style_1 .header-logo {
-  padding: 20px 0 10px;
-  text-align: center;
+.header-container.active-sticky .header-wrapper  .megamenu {
+  margin-top: 58px;
 }
+.header-container.active-sticky .header-quick-access {
+  position: absolute;
+  right: 0;
+  top: 68px;
+}
+
 .header-container.header_fixed_menu.active-sticky .nav-primary-container .sticky-logo {
   display: block;
   float: left;
@@ -209,7 +229,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   width: 150px;
 }
 
-/*********menu********/
 .megamenu > li > a {
   display: inline-block;
   font-size: 19px;
@@ -228,6 +247,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   display: none;
 }
 /********cart**********/
+.header-container .header-quick-access {
+  position: absolute;
+  right: 0;
+  top: 110px;
+}
 .header-quick-access .fa-shopping-cart::before {
   content: url('../images/icon/icon_cart.png');
 }
@@ -260,6 +284,39 @@ background:#f4cebe;
 }
 
 /********Home-section-1*******/
+
+.arw_sebian_home_sport_block_banner_1 .owl-carousel .owl-dots {
+  margin: 25px 0 20px 0 !important;
+  text-align: center;
+}
+
+.arw_sebian_home_sport_block_banner_1 .arw-banner.style-5 .banner-title {
+  font-family: 'josefin_sanssemibold';
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  margin-top: 18%;
+  transition: all 0.2s ease 150ms;
+}
+
+.arw_sebian_home_sport_block_banner_1 .arw-banner.style-5 .banner-text {
+	font-family: 'josefin_sanssemibold';
+  color: #fff;
+  font-size: 14px;
+  transition: all 0.5s ease 200ms;
+}
+.arw_sebian_home_sport_block_banner_1 .owl-carousel .owl-dots .owl-dot {
+  background: #f4cebe none repeat scroll 0 0;
+  border: 2px solid #f4cebe;
+}
+
+.arw_sebian_home_sport_block_banner_1 .owl-carousel .owl-dots .owl-dot.active {
+  background: #fff none repeat scroll 0 0;
+  border-color: #f4cebe;
+}
+
+
 .arw_sebian_home_watch_block_banner_1 .arw-banner-content {
   left: 0;
   position: absolute;
@@ -326,7 +383,64 @@ background:#f4cebe;
 	color: #ffffff;
 }
 
+/******custom Services*****/
 
+ul.nav-tabs {
+	width: 140px;
+	margin-top: 20px;
+	border-radius: 4px;
+    background: #fff;
+    z-index: 999;
+	border: 1px solid #ddd;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+}
+ul.nav-tabs li {
+	margin: 0;
+	border-top: 1px solid #ddd;
+}
+ul.nav-tabs li:first-child {
+	border-top: none;
+}
+ul.nav-tabs li a {
+	margin: 0;
+	padding: 8px 16px;
+	border-radius: 0;
+}
+ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover {
+  background: #f4cebe;
+  border: 1px solid #f4cebe;
+  color: #181818;
+}
+ul.nav-tabs li:first-child a {
+	border-radius: 4px 4px 0 0;
+}
+ul.nav-tabs li:last-child a {
+	border-radius: 0 0 4px 4px;
+}
+ul.nav-tabs.affix {
+	top: 205px; /* set the top position of pinned element */
+}
+
+#section1,
+#section2,
+#section3,
+#section4,
+#section5 {
+  padding-top: 205px;
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    ul.nav-tabs{
+        width: 180px; /* set nav width on medium devices */
+    }
+}
+@media screen and (min-width: 1200px){
+    ul.nav-tabs{
+        width: 220px; /* set nav width on large devices */
+    }
+}
 
 
 /***********Blog*******/
@@ -964,4 +1078,31 @@ input[type="radio"]:checked + label::before {
 	color: #181818;
 	padding: 20px 0;
 	display: block;
+}
+.open-sub {display: block !important;}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.header-container.header_style_1 .header-logo {
+		padding: 5px 0;
+		float: none;
+		margin: 0 auto;
+		z-index: 0;
+	}
+	.header-container .header-quick-access {
+	  position: absolute;
+	  right: 0;
+	  top: -25px;
+	}
+	ul.nav-tabs.affix {
+	  position: relative;
+	  top: 0;
+	  width: 100% !important;
+	}
+	#section1,
+	#section2,
+	#section3,
+	#section4,
+	#section5 {
+	  padding-top: 0px;
+	}
 }

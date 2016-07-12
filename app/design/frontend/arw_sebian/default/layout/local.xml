@@ -192,6 +192,7 @@
             <block type="cms/block" name="arw_sebian_home_block_top" after="arw_layout_global_top">
                 <action method="setBlockId"><block_id>arw_sebian_home_block_top</block_id></action>
             </block>
+            <remove name="revo_slide" />
         </reference>
         <reference name="arw.layout.global.bottom">
             <block type="cms/block" name="arw_sebian_home_block_bottom" before="arw_layout_global_bottom">

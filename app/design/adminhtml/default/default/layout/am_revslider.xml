@@ -12,6 +12,7 @@
         <reference name="content">
             <block type="revslider/adminhtml_slider" name="revslider_slider"/>
         </reference>
+      
     </revslideradmin_slider_index>
 
     <revslideradmin_slider_edit>

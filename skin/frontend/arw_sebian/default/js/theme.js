@@ -269,52 +269,9 @@ function arw_equal_height(container){
                         mm_item.hide();
                         mm_item.wrapInner('<div class="list_item_dropdown clearfix"></div>');
                         var timer = 0;
-                        $(this).bind('mouseenter', function(e){
-                            $(this).children('a').addClass('arw-hover');
-                            var mm_item_obj = $(this).children('div');
-                            clearTimeout(timer);
-                            var check_menu = $(this).find('div.list_item_dropdown');
-                            if(mm_item.length >0 && check_menu.length >0){
-                                if(check_menu.html().length>1){
-                                    timer = setTimeout(function(){
-                                        switch(options.animation) {
-                                            case "show":
-                                                mm_item_obj.show().addClass("shown-sub");
-                                                break;
-                                            case "slide":
-                                                mm_item_obj.height("auto");
-                                                mm_item_obj.stop().slideDown('fast', function(){
-                                                    mm_item_obj.css("overflow","inherit");
-                                                }).addClass("shown-sub");
-                                                break;
-                                            case "fade":
-                                                mm_item_obj.stop().fadeTo('fast', 1).addClass("shown-sub");
-                                                break;
-                                        }
-                                        setTimeout(function(){
-                                            arw_equal_height(mm_item.find('.products-grid li.item .product-info'));
-                                        },200)
-                                    }, options.mm_timeout);
-                                }
-                            }
-                        });
-                        $(this).bind('mouseleave', function(e){
-                            var mm_item_obj = $(this).children('div');
-                            $(this).children('a').removeClass('arw-hover');
-                            clearTimeout(timer);
-                            switch(options.animation) {
-                                case "show":
-                                    mm_item_obj.hide().removeClass('shown-sub');
-                                    break;
-                                case "slide":
-                                    mm_item_obj.stop().removeClass('shown-sub').slideUp( 'fast',  function() {});
-                                    break;
-                                case "fade":
-                                    mm_item_obj.stop().removeClass('shown-sub').fadeOut( 'fast', function() {});
-                                    break;
-                            }
-                        });
-                    });
+                        
+
+                    }); 
                     this.show();
                 }
             });
@@ -1269,3 +1226,24 @@ if(typeof ARWFilter != 'undefined'){
     };
     ARWFilter.prototype = oldARWFilter.prototype;
 };
+
+jQuery(document).ready(function(){
+    //jQuery('.sub-wrapper').css({"display":"none !important"});
+    jQuery('li.parent > a.level-top').on('click', function(event) {
+        event.preventDefault();
+       // var obj_sub = jQuery(".sub-wrapper");
+
+        if(jQuery(this).next(".sub-wrapper").hasClass("open-sub")){
+            jQuery(this).next(".sub-wrapper").removeClass("open-sub") ;   
+        }else{
+             jQuery(".sub-wrapper").each(function(){
+                if(jQuery(this).hasClass("open-sub")){
+                    jQuery(this).removeClass("open-sub");
+                }
+            });
+             jQuery(this).next(".sub-wrapper").addClass("open-sub") ;  
+        }
+    });
+});
+
+
